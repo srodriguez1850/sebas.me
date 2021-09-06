@@ -20,7 +20,21 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<style type="text/css">
 	.bold {
-}
+	}
+	a {
+		-moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+		-webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+		transition: border-bottom-color 0.2s ease, color 0.2s ease;
+/*		text-decoration: none;*/
+		color: #f2849e;
+/*		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);*/
+	}
+	a:hover {
+/*		text-decoration: none;*/
+/*		border-bottom-color: transparent;*/
+		color: #EC4B71 !important;
+	}
     </style>
 <title>Sebastian S. Rodriguez</title>
 </head>
@@ -28,9 +42,9 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="media mt-4">
-				<img src="content/images/jpg/me2021.jpg" class="mr-4 rounded-circle" width="250" height="250" alt="Sebastian Rodriguez picture">
+				<img src="content/images/common/me2021.jpg" class="mr-4 rounded-circle" width="250" height="250" alt="Sebastian Rodriguez picture">
 				<div class="media-body align-self-center">
-					<h1>Sebastian S(amuel) Rodriguez</h1>
+					<h1><a href="index.html" style="text-decoration: none; color: #000000">Sebastian S(amuel) Rodriguez</a></h1>
 					<h4>srodri44 [at] illinois [dot] edu</h4>
 					<p>
 						<a target="_blank" href="content/docs/cv.pdf"><img src="assets/icons/document-text.svg" alt="Download CV" width="32" height="32" title="CV"></a>
@@ -66,7 +80,7 @@
 				<h2 class="mb-3">Experience</h2>
 				<div class="row">
 					<div class="col">
-						<img class="mx-auto d-block" src="content/images/png/wsu.png" height="100" alt="Washington State University logo">
+						<img class="mx-auto d-block" src="content/images/research/wsu.png" height="100" alt="Washington State University logo">
 						<p class="text-center">
 							<b>Washington State University</b>
 							<br>
@@ -76,7 +90,7 @@
 						</p>
 					</div>
 					<div class="col">
-						<img class="mx-auto d-block rounded-circle" src="content/images/jpg/nu.jpg" height="100" alt="Northwestern University logo">
+						<img class="mx-auto d-block rounded-circle" src="content/images/research/nu.jpg" height="100" alt="Northwestern University logo">
 						<p class="text-center">
 							<b>Northwestern University</b>
 							<br>
@@ -86,7 +100,7 @@
 						</p>
 					</div>
 					<div class="col">
-						<img class="mx-auto d-block" src="content/images/png/illinois.png" height="100" alt="University of Illinois at Urbana-Champaign logo">
+						<img class="mx-auto d-block" src="content/images/research/illinois.png" height="100" alt="University of Illinois at Urbana-Champaign logo">
 						<p class="text-center">
 							<b>University of Illinois at Urbana-Champaign</b>
 							<br>
@@ -100,7 +114,7 @@
 				</div>
 				<div class="row">
 					<div class="col">
-						<img class="mx-auto d-block rounded-circle" src="content/images/png/arl.png" height="100" alt="Army Research Laboratory logo">
+						<img class="mx-auto d-block rounded-circle" src="content/images/research/arl.png" height="100" alt="Army Research Laboratory logo">
 						<p class="text-center">
 							<b>Army Research Laboratory</b>
 							<br>
@@ -110,7 +124,7 @@
 						</p>
 					</div>
 					<div class="col">
-						<img class="mx-auto d-block rounded-circle" src="content/images/png/arl.png" height="100" alt="Army Research Laboratory logo">
+						<img class="mx-auto d-block rounded-circle" src="content/images/research/arl.png" height="100" alt="Army Research Laboratory logo">
 						<p class="text-center">
 							<b>Army Research Laboratory</b>
 							<br>
@@ -120,7 +134,7 @@
 						</p>
 					</div>
 					<div class="col">
-						<img class="mx-auto d-block rounded-circle" src="content/images/jpg/fb.jpg" height="100" alt="Facebook logo">
+						<img class="mx-auto d-block rounded-circle" src="content/images/research/fb.jpg" height="100" alt="Facebook logo">
 						<p class="text-center">
 							<b>Facebook</b>
 							<br>
@@ -145,29 +159,19 @@
 			<div class="col">
 				<h2 class="mb-3">Research</h2>
 				<ul class="list-unstyled">
-										<li class="media">
-						<img class="mr-3 align-self-center" src="content/images/png/polyworld.png" width="25%" alt="PolyWorld">
-						<div class="media-body">
-						  <h5 class="mt-0 mb-1">XR Remote Study Toolkit</h5>
-						  <p class="blockquote-footer mb-2">University of Illinois at Urbana-Champaign, Microsoft Research, Vanderbilt University</p>
-<p>Description of XRRST.
-</p>
-<p><a target="_blank" href=""><b>Future Publication</b></a></p>
-						</div>
-					</li>
+										
 
 					<li class="media">
-						<img class="mr-3 align-self-center" src="content/images/png/polyworld.png" width="25%" alt="PolyWorld">
+						<img class="mr-3 align-self-center" src="content/images/research/mmva.png" width="25%" alt="PolyWorld">
 						<div class="media-body">
 						  <h5 class="mt-0 mb-1">A Touch and Voice Multimodal Interaction Method for Personalizing Voice Assistants</h5>
 						  <p class="blockquote-footer mb-2">University of Illinois at Urbana-Champaign, Vanderbilt University</p>
-<p>Description of Jae's study.
-</p>
-<p><a target="_blank" href=""><b>ICMI 2021 Paper</b></a></p>
+							<p>Human speech often contains ambiguity from using demonstrative pronouns (e.g., "this" or "that"). Humans can easily discern what object the pronoun refers to, but current voice assistants (like Google Assistant or Siri) are yet unable to do so. Questions such as "what is the cost of this?" are met with a canned error response or an unrelated response (try it!). We built and examined a touch and voice multimodal voice assistant that enables users to select spatial information to embed in their queries. We found that complex queries are better resolved by the multimodal voice assistant without any elevated cognitive load. Users eventually became comfortable using demonstrative pronouns with voice assistants, appreciating and improving the human-likeness of conversations with voice assistants.</p>
+							<p><a target="_blank" href="content/docs/ICMI2021_MultimodalVA.pdf"><b>ICMI 2021 Paper</b></a></p>
 						</div>
 					</li>
 					<li class="media my-5">
-					<img class="mr-3 align-self-center" src="content/images/png/predprey.png" width="25%" alt="Predator-Prey Game">
+					<img class="mr-3 align-self-center" src="content/images/research/predprey.png" width="25%" alt="Predator-Prey Game">
 						<div class="media-body">
 							<h5 class="mt-0 mb-1">Perceptions, Attitudes, and Strategy Formation in Human-Agent Teams in a Continuous Game-theoretic Environment</h5>
 						  <p class="blockquote-footer mb-2">University of Illinois at Urbana-Champaign, Army Research Laboratory</p>
@@ -188,7 +192,7 @@
 						</div>
 					</li>
 					<li class="media my-5">
-					  <img class="mr-3 align-self-center" src="content/images/png/dd.png" width="25%" alt="Diner's Dilemma">
+					  <img class="mr-3 align-self-center" src="content/images/research/dd.png" width="25%" alt="Diner's Dilemma">
 						<div class="media-body">
 						  <h5 class="mt-0 mb-1">Knowledge Complacency in Decision Support Systems</h5>
 						  <p class="blockquote-footer mb-2">University of Illinois at Urbana-Champaign, Army Research Laboratory, University of California, Santa Barbara</p>
@@ -197,7 +201,7 @@
 					  </div>
 					</li>
 					<li class="media">
-						<img class="mr-3 align-self-center" src="content/images/png/ecb.png" width="25%" alt="Hackable Electronic Conference Badge">
+						<img class="mr-3 align-self-center" src="content/images/research/ecb.png" width="25%" alt="Hackable Electronic Conference Badge">
 						<div class="media-body">
 							<h5 class="mt-0 mb-1">Participatory Simulations for CS Education with a Hackable Electronic Conference Badge</h5>
 							<p class="blockquote-footer mb-2">Northwestern University</p>
@@ -232,7 +236,7 @@
 		<hr>
 		<div class="row">
 			<div class="col">
-				<p align="center">&copy; Sebastian S. Rodriguez. Last Updated: August 2021</p>
+				<p align="center">&copy; Sebastian S. Rodriguez. Last Updated: September 2021</p>
 			</div>
 		</div>
 	</div>
