@@ -1,0 +1,88 @@
+{
+   "entries": [
+      {
+         "title": "Facebook",
+         "url": null,
+         "img": "../images/portfolio/frllogo.png",
+         "description": "Award-winning internal hackathon project for Facebook Reality Labs. 🔒"
+      },
+      {
+         "title": "VR Neural Networks",
+         "url": null,
+         "img": "../images/portfolio/nn.png",
+         "description": "A visualization of neural networks in VR. Includes a neural network implementation in C# from scratch (yes, it's slow)."
+      },
+      {
+         "title": "Multi-modal Voice Assistant",
+         "url": "https://youtu.be/wD1gODGNrGE",
+         "img": "../images/portfolio/mmva.png",
+         "description": "A voice assistant (think Siri) augmented with context selection through an AR interface."
+      },
+      {
+         "title": "MADDPG Predator-Prey",
+         "url": null,
+         "img": "../images/portfolio/ppg.png",
+         "description": "An implementation of the MADDPG algorithm with Unity ML-Agents."
+      },
+      {
+         "title": "Chromatone",
+         "url": "https://youtu.be/-SmzZ0YtzQc",
+         "img": "../images/portfolio/chromatone.png",
+         "description": "A VR experience that allows interaction with individual instruments through modulation and particle visualizations."
+      },
+      {
+         "title": "Mizuna",
+         "url": "https://github.com/srodriguez1850/Mizuna",
+         "img": "../images/portfolio/mizuna.png",
+         "description": "Programmatic synchronization of graphs between IPython and Overleaf."
+      },
+      {
+         "title": "BEU",
+         "url": null,
+         "img": "../images/portfolio/beu2.png",
+         "description": "An exercise to implement fighting game mechanics in a side-scrolling beat 'em up domain."
+      },
+      {
+         "title": "Messenger URL Extractor",
+         "url": "https://extract.sebas.me",
+         "img": "../images/portfolio/murle.png",
+         "description": "A quick Python script to extract all URLs from a Facebook Messenger chat conversation."
+      },
+      {
+         "title": "Modular Tetris",
+         "url": null,
+         "img": "../images/portfolio/tetris.png",
+         "description": "An exercise to implement Tetris with modular frame-timing mechanics."
+      },
+      {
+         "title": "VR n-back Experiment",
+         "url": null,
+         "img": "../images/portfolio/cogproc.png",
+         "description": "A replication of the n-back task to test working memory in VR environments."
+      },
+      {
+         "title": "VR Proprioception Experiment",
+         "url": null,
+         "img": "../images/portfolio/proprioception.png",
+         "description": "An experiment to investigate how challenging is it for VR users to grab objects outside of their field of view."
+      },
+      {
+         "title": "Aurora",
+         "url": "https://github.com/antonpup/Aurora/commits?author=srodriguez1850",
+         "img": "../images/portfolio/aurora.png",
+         "description": "My contributions to an open-sourced utility that unifies RGB devices across different brands for synchronized lighting."
+      },
+      {
+         "title": "TIDALSign",
+         "url": "https://youtu.be/j-NQ40gS5eM",
+         "img": "../images/portfolio/tidalsign.png",
+         "description": "Learn American Sign Language through sensory gloves and haptic feedback."
+      },
+      {
+         "title": "JS3Inth",
+         "url": "https://github.com/srodriguez1850/JSInth",
+         "img": "../images/portfolio/jsinth.png",
+         "description": "Sine wave synthesizer and modulator for FPGA boards."
+      }
+   ]
+}

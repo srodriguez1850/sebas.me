@@ -1,0 +1,27 @@
+@import url('bootstrap.min.css');
+
+.bold {
+}
+
+body {
+	height: 100%;
+}
+
+a {
+	-moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+	-webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+	-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+	transition: border-bottom-color 0.2s ease, color 0.2s ease;
+/*		text-decoration: none;*/
+color: #f2849e;
+/*		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);*/
+}
+a:hover {
+/*		text-decoration: none;*/
+/*		border-bottom-color: transparent;*/
+color: #EC4B71 !important;
+}
+
+/*				// {Data.entries.map(entry => {
+				// 	<GridElement title={entry.title} url={entry.url} description={entry.description} img={entry.img} />
+				// })}*/
