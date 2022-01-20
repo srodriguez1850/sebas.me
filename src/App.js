@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Home from './components/home'
 import Research from './components/research'
@@ -9,9 +10,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/research' element={<Research />} />
-        <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/*' element={<Portfolio />} />
       </Routes>
     </Router>
     );

@@ -9,9 +9,9 @@ export default class GridSquare extends Component {
 				</span>
 					<a target="_blank" rel="noreferrer" href={this.props.url}>
 						<div className="spacing"></div>
-						<h2 className="content">{this.props.title}</h2>
+						<h2 className="content" dangerouslySetInnerHTML={{__html: this.props.title}}></h2>
 						<div className="content">
-							<p>{this.props.description}</p>
+							<p dangerouslySetInnerHTML={{__html: this.props.description}}></p>
 						</div>
 					</a>
 			</article>

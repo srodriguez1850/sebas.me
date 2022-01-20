@@ -6,7 +6,7 @@ export default class Grid extends Component {
 	render() {
 		return (
 			<section className="tiles">
-				{Data.entries.map(entry => {
+				{Data.projects.map(entry => {
 					return (<GridSquare key={entry.title} title={entry.title} description={entry.description} url={entry.url} img={entry.img} />)
 				})}
 			</section>

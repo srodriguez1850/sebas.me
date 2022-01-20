@@ -1,0 +1,250 @@
+module.exports = `<!doctype html>
+
+<html lang="en">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177618468-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-177618468-1');
+	</script>
+
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="assets/icon.ico">
+
+	<!-- Bootstrap CSS
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<style type="text/css">
+	.bold {
+	}
+	a {
+		-moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+		-webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+		transition: border-bottom-color 0.2s ease, color 0.2s ease;
+/*		text-decoration: none;*/
+		color: #F2849E;
+/*		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);*/
+	}
+	a:hover {
+/*		text-decoration: none;*/
+/*		border-bottom-color: transparent;*/
+		color: #EC4B71 !important;
+	}
+    </style> -->
+<title>Sebastian S. Rodriguez</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="media mt-4">
+				<img src="./images/common/me2021.jpg" class="mr-4 rounded-circle" width="250" height="250" alt="Sebastian Rodriguez picture">
+				<div class="media-body align-self-center">
+					<h1><a href="/" style="text-decoration: none; color: #000000">Sebastian S(amuel) Rodriguez</a></h1>
+					<h4>srodri44 [at] illinois [dot] edu</h4>
+					<p>
+						<a target="_blank" href="./docs/cv.pdf"><img src="https://img.icons8.com/ios/96/000000/resume.png" alt="Download CV" width="32" height="32" title="CV"></a>
+						<a target="_blank" href="https://github.com/srodriguez1850"><img src="https://img.icons8.com/material-outlined/192/000000/github.png" alt="GitHub" width="32" height="32" title="GitHub"></a>
+						<a target="_blank" href="https://scholar.google.com/citations?user=RdD2ZP8AAAAJ"><img src="https://img.icons8.com/material-outlined/96/000000/google-scholar.png" alt="Google Scholar" width="32" height="32" title="Google Scholar"></a>
+						<a target="_blank" href="https://www.linkedin.com/in/srodriguez1850/"><img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn" width="32" height="32" title="LinkedIn"></a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<hr>
+
+		<div class="row">
+			<div class="col">
+				<h2 class="mb-3">About Me</h2>
+				<p>
+					I'm a senior Ph.D. student at University of Illinois at Urbana-Champaign under the guidance of <a target="_blank" href="https://cs.illinois.edu/directory/profile/kirlik">Professor Alex Kirlik</a>. I'm a member of the Human-Computer Interaction research group.
+				</p>
+				<p>
+					My doctoral research focuses on studying the effects of shifting reliability and over-trust in parallel domains, and how over-trust can affect everyday interactions between users and AI. My research draws from human-computer interaction, human-automation interaction, human factors, AI and ML, and game theory and design. My work was supported by the <a href="https://www.arl.army.mil/" target="_blank">U.S. Army Combat Capabilities Development Command Army Research Laboratory</a> (ARL) through a Journeyman Fellowship.
+				</p>
+				Before UIUC, I completed my B.S. in Computer Engineering at Northwestern University. I grasped the ropes of HCI under the tutelage of <a target="_blank" href="https://tidal.northwestern.edu/people/mikehorn/">Professor Michael Horn</a> and <a target="_blank" href="https://peabody.vanderbilt.edu/bio/corey-brady">Professor Corey Brady</a>, working on participatory simulations with hackable hardware in high-school classrooms.
+				<p>
+
+				</p>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col">
+				<h2 class="mb-3">Experience</h2>
+				<div class="row">
+					<div class="col">
+						<img class="mx-auto d-block" src="./images/research/wsu.png" height="100" alt="Washington State University logo">
+						<p class="text-center">
+							<b>Washington State University</b>
+							<br>
+							Undergraduate Research Intern
+							<br>
+							<i>2015</i>
+						</p>
+					</div>
+					<div class="col">
+						<img class="mx-auto d-block rounded-circle" src="./images/research/nu.jpg" height="100" alt="Northwestern University logo">
+						<p class="text-center">
+							<b>Northwestern University</b>
+							<br>
+							Undergraduate Research Assistant
+							<br>
+							<i>2015 - 2016</i>
+						</p>
+					</div>
+					<div class="col">
+						<img class="mx-auto d-block" src="./images/research/illinois.png" height="100" alt="University of Illinois at Urbana-Champaign logo">
+						<p class="text-center">
+							<b>University of Illinois at Urbana-Champaign</b>
+							<br>
+							Graduate Research Assistant
+							<br>
+							<i>2016 - 2018</i>
+						</p>
+					</div>
+					
+					
+				</div>
+				<div class="row">
+					<div class="col">
+						<img class="mx-auto d-block rounded-circle" src="./images/research/arl.png" height="100" alt="Army Research Laboratory logo">
+						<p class="text-center">
+							<b>Army Research Laboratory</b>
+							<br>
+							Research Intern
+							<br>
+							<i>2018</i>
+						</p>
+					</div>
+					<div class="col">
+						<img class="mx-auto d-block rounded-circle" src="./images/research/arl.png" height="100" alt="Army Research Laboratory logo">
+						<p class="text-center">
+							<b>Army Research Laboratory</b>
+							<br>
+							Research Fellow
+							<br>
+							<i>2018 - 2020</i>
+						</p>
+					</div>
+					<div class="col">
+						<img class="mx-auto d-block rounded-circle" src="./images/research/meta.png" height="100" alt="Meta logo">
+						<p class="text-center">
+							<b>Meta</b>
+							<br>
+							Quantitative UX Research Intern
+							<br>
+							<i>2021</i>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col">
+				<h2 class="mb-3">Education</h2>
+				<p>Ph.D. Student, Computer Science<br>Department of Computer Science<br><a target="_blank" href="https://cs.illinois.edu/">University of Illinois at Urbana-Champaign</a> expected 2022</p>
+				<p>B.S., Computer Engineering<br>Department of Electrical and Computer Engineering (formerly Electrical Engineering and Computer Science)<br><a target="_blank" href="https://www.mccormick.northwestern.edu/electrical-computer/">Northwestern University</a> 2016</p>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col">
+				<h2 class="mb-3">Research</h2>
+				<ul class="list-unstyled">
+										
+
+					<li class="media">
+						<img class="mr-3 align-self-center" src="./images/research/mmva.png" width="25%" alt="PolyWorld">
+						<div class="media-body">
+						  <h5 class="mt-0 mb-1">A Voice and Touch Multimodal Approach for Ambiguity Resolution in Voice Assistants</h5>
+						  <p class="blockquote-footer mb-2">University of Illinois at Urbana-Champaign, Vanderbilt University</p>
+							<p>Human speech often contains ambiguity from using demonstrative pronouns (e.g., "this" or "that"). Humans can easily discern what object the pronoun refers to, but current voice assistants (like Google Assistant or Siri) are yet unable to do so. Questions such as "what is the cost of this?" are met with a canned error response or an unrelated response (try it!). We built and examined a touch and voice multimodal voice assistant that enables users to select spatial information to embed in their queries. We found that complex queries are better resolved by the multimodal voice assistant without any elevated cognitive load. Users eventually became comfortable using demonstrative pronouns with voice assistants, appreciating and improving the human-likeness of conversations with voice assistants.</p>
+							<p><a target="_blank" href="./docs/ICMI2021_MultimodalVA.pdf"><b>ICMI 2021 Paper</b></a></p>
+						</div>
+					</li>
+					<li class="media my-5">
+					<img class="mr-3 align-self-center" src="./images/research/predprey.png" width="25%" alt="Predator-Prey Game">
+						<div class="media-body">
+							<h5 class="mt-0 mb-1">Perceptions, Attitudes, and Strategy Formation in Human-Agent Teams in a Continuous Game-theoretic Environment</h5>
+						  <p class="blockquote-footer mb-2">University of Illinois at Urbana-Champaign, Army Research Laboratory</p>
+<p>Machine learning agents are closer in navigating continuous, uncertain environments. In practice, this leads to humans and agents (e.g., drones) completing physical tasks as a team. Agents could potentially outperform their human teammates, and this discrepancy can lead to human complacent behavior and loss in performance. In a between-subjects design, participants complete a pursuit task along a team of agents: either high performing or sub-par performing. We measure individual and team performance, along with survey metrics (trust, complacency potential, motivation) and a situation awareness probe to understand how varying reliability affects performance and trust calibration.
+</p>
+<p>
+				<i>Perception/Attitudes</i>:	<b>
+					<a target="_blank" href="./docs/SPIE2020_HATComplacency.pdf">SPIE 2020 Paper</a>
+				</b>
+				<br>
+								<i>Strategy Formation</i>: <b>
+									<a target="_blank" href="./docs/SPIE2019_Strategies.pdf">SPIE 2019 Paper</a>,
+									<a target="_blank" href="./docs/CSCI2019_CoordinationProfiles.pdf">CSCI 2019 Short Paper</a>,
+									<a target="_blank" href="./docs/SPIE2020_ErgodicDistros.pdf">SPIE 2020 Paper</a>,
+									<a target="_blank" href="./docs/CSCE2020_EmergentStrats.pdf">CSCE 2020 Paper</a>
+								</b>
+						  </p>
+						</div>
+					</li>
+					<li class="media my-5">
+					  <img class="mr-3 align-self-center" src="./images/research/dd.png" width="25%" alt="Diner's Dilemma">
+						<div class="media-body">
+						  <h5 class="mt-0 mb-1">Knowledge Complacency in Decision Support Systems</h5>
+						  <p class="blockquote-footer mb-2">University of Illinois at Urbana-Champaign, Army Research Laboratory, University of California, Santa Barbara</p>
+<p>Decision support systems (DSS) are often based on complex machine learning models, and have become a core part of analytics and sensemaking processes. An under-investigated factor in trust and complacency research is the effect that DSS might have on human learning of domain knowledge. We conduct a comparative analysis of two between-subjects studies of users interacting with decision aids to understand how knowledge acquisition and retention is affected by the competence and presentation of a DSS. Results indicate that while humans can internalize domain concepts while being aided by a DSS, features that make the DSS appear more competent, persuasize, or customizable may lead a user to form incorrect beliefs.</p>
+							<p><a target="_blank" href="./docs/CogSIMA2019_Complacency.pdf"><b>CogSIMA 2019 Paper (Best Paper Award)</b></a></p>
+					  </div>
+					</li>
+					<li class="media">
+						<img class="mr-3 align-self-center" src="./images/research/ecb.png" width="25%" alt="Hackable Electronic Conference Badge">
+						<div class="media-body">
+							<h5 class="mt-0 mb-1">Participatory Simulations for CS Education with a Hackable Electronic Conference Badge</h5>
+							<p class="blockquote-footer mb-2">Northwestern University</p>
+<p>Computer science (CS) is becoming an increasingly diverse domain. This work reports on an initiative designed to introduce underrepresented populations to computing using a multifaceted approach. This article outlines the practical and theoretical motivations for the Computational Thinking for Girls (CT4G) project, specifically highlighting the use of Making through physical and social computing as ways to engage students in CS. A snapshot of one activity from the program is provided - Wearing the Web - in which students use open-hardware programmable badges to explore the underlying structure and technology that enables the Internet. Data from the first year of the CT4G program are presented to show the positive effects that this diverse introduction to CS is having on the students with respect to their attitudes toward CS.</p>
+							<p><a target="_blank" href="./docs/IEEE2017_AllRoads.pdf"><b>IEEE ToE 2017 Article</b></a></p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+<!--
+		<div class="row">
+			<div class="col">
+				<h2 class="mb-3">Projects</h2>
+			</div>
+		</div>
+		<hr>
+-->
+		<div class="row">
+			<div class="col">
+				<h2 class="mb-3">Cool Facts</h2>
+				<ul>
+					<li>I'm Peruvian-Colombian, and I spent most of my childhood (and some adolescence) in Perú.</li>
+					<li>"Sebas" (SEH-bahs) is a nickname my family and friends gave me in Perú.</li>
+					<li>I enjoy social dancing very often, almost exclusively Latin dancing!</li>
+					<li>I've been playing percussion since high school.</li>
+					<li>Both my Spanish and English-speaking friends say I have an accent on each respectively. :v</li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col">
+				<p align="center">&copy; Sebastian S. Rodriguez. Last Updated: January 2022</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>`;

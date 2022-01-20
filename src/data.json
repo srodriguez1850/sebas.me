@@ -1,10 +1,48 @@
 {
-   "entries": [
+   "experience": [
+      {
+         "company": "Meta",
+         "title": "UX Research Intern",
+         "year": "2021",
+         "img": "../images/research/meta.png"
+      },
+      {
+         "company": "Army Research Laboratory",
+         "title": "Research Fellow",
+         "year": "2018 - 2020",
+         "img": "../images/research/arl.png"
+      },
+      {
+         "company": "Army Research Laboratory",
+         "title": "Research Intern",
+         "year": "2018",
+         "img": "../images/research/arl.png"
+      },
+      {
+         "company": "University of Illinois at Urbana-Champaign",
+         "title": "Graduate Research Assistant",
+         "year": "2016 - 2018",
+         "img": "../images/research/illinois.png"
+      },
+      {
+         "company": "Northwestern University",
+         "title": "Undergraduate Research Assistant",
+         "year": "2015 - 2016",
+         "img": "../images/research/nu.jpg"
+      },
+      {
+         "company": "Washington State University",
+         "title": "Undergraduate Research Intern",
+         "year": "2015",
+         "img": "../images/research/wsu.png"
+      }
+   ],
+   "projects": [
       {
          "title": "Facebook",
          "url": null,
          "img": "../images/portfolio/frllogo.png",
-         "description": "Award-winning internal hackathon project for Facebook Reality Labs. 🔒"
+         "description": "Award-winning internal hackathon project for Facebook Reality Labs.<br>🔒"
       },
       {
          "title": "VR Neural Networks",
@@ -55,10 +93,10 @@
          "description": "An exercise to implement Tetris with modular frame-timing mechanics."
       },
       {
-         "title": "VR n-back Experiment",
+         "title": "VR <em>n</em>-back Experiment",
          "url": null,
          "img": "../images/portfolio/cogproc.png",
-         "description": "A replication of the n-back task to test working memory in VR environments."
+         "description": "A replication of the <em>n</em>-back task to test working memory in VR environments."
       },
       {
          "title": "VR Proprioception Experiment",
@@ -79,10 +117,84 @@
          "description": "Learn American Sign Language through sensory gloves and haptic feedback."
       },
       {
-         "title": "JS3Inth",
+         "title": "JS<sup>3</sup>Inth",
          "url": "https://github.com/srodriguez1850/JSInth",
          "img": "../images/portfolio/jsinth.png",
          "description": "Sine wave synthesizer and modulator for FPGA boards."
+      }
+   ],
+   "research": [
+      {
+         "title": "A Voice and Touch Multimodal Approach for Ambiguity Resolution in Voice Assistants",
+         "institution": "University of Illinois at Urbana-Champaign, Vanderbilt University",
+         "img": "../images/research/mmva.png",
+         "categorized": false,
+         "papers": [
+            {
+               "title": "ICMI 2021 Paper",
+               "doc": "../docs/ICMI2021_MultimodalVA.pdf",
+               "category": null
+            }
+         ]
+      },
+      {
+         "title": "Perceptions, Attitudes, and Strategy Formation in Human-Agent Teams in a Continuous Game-theoretic Environment",
+         "institution": "University of Illinois at Urbana-Champaign, Army Research Laboratory",
+         "img": "../images/research/predprey.png",
+         "categorized": false,
+         "papers": [
+            {
+               "title": "SPIE 2020 Paper",
+               "doc": "../docs/SPIE2020_HATComplacency.pdf",
+               "category": null
+            },
+            {
+               "title": "CSCE 2020 Paper",
+               "doc": "../docs/CSCE2020_EmergentStrats.pdf",
+               "category": null
+            },
+            {
+               "title": "SPIE 2020 Paper",
+               "doc": "../docs/SPIE2020_ErgodicDistros.pdf",
+               "category": null
+            },
+            {
+               "title": "CSCI 2019 Short Paper",
+               "doc": "../docs/CSCI2019_CoordinationProfiles.pdf",
+               "category": null
+            },
+            {
+               "title": "SPIE 2019 Paper",
+               "doc": "../docs/SPIE2019_Strategies.pdf",
+               "category": null
+            }
+         ]
+      },
+      {
+         "title": "Knowledge Complacency in Decision Support Systems",
+         "institution": "University of Illinois at Urbana-Champaign, Army Research Laboratory, University of California, Santa Barbara",
+         "img": "../images/research/dd.png",
+         "categorized": false,
+         "papers": [
+            {
+               "title": "CogSIMA 2019 Paper (Best Paper Award)",
+               "doc": "../docs/CogSIMA2019_Complacency.pdf",
+               "category": null
+            }
+         ]
+      },
+      {
+         "title": "Participatory Simulations for CS Education with a Hackable Electronic Conference Badge",
+         "institution": "Northwestern University",
+         "img": "../images/research/ecb.png",
+         "categorized": false,
+         "papers": [
+            {
+               "title": "IEEE ToE 2017 Article",
+               "doc": "../docs/IEEE2017_AllRoads.pdf",
+               "category": null
+            }
+         ]
       }
    ]
 }
