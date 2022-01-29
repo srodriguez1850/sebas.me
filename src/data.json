@@ -1,0 +1,200 @@
+{
+   "experience": [
+      {
+         "company": "Meta",
+         "title": "UX Research Intern",
+         "year": "2021",
+         "img": "../images/research/meta.png"
+      },
+      {
+         "company": "Army Research Laboratory",
+         "title": "Research Fellow",
+         "year": "2018 - 2020",
+         "img": "../images/research/arl.png"
+      },
+      {
+         "company": "Army Research Laboratory",
+         "title": "Research Intern",
+         "year": "2018",
+         "img": "../images/research/arl.png"
+      },
+      {
+         "company": "University of Illinois at Urbana-Champaign",
+         "title": "Graduate Research Assistant",
+         "year": "2016 - 2018",
+         "img": "../images/research/illinois.png"
+      },
+      {
+         "company": "Northwestern University",
+         "title": "Undergraduate Research Assistant",
+         "year": "2015 - 2016",
+         "img": "../images/research/nu.jpg"
+      },
+      {
+         "company": "Washington State University",
+         "title": "Undergraduate Research Intern",
+         "year": "2015",
+         "img": "../images/research/wsu.png"
+      }
+   ],
+   "projects": [
+      {
+         "title": "Facebook",
+         "url": null,
+         "img": "../images/portfolio/frllogo.png",
+         "description": "Award-winning internal hackathon project for Facebook Reality Labs.<br>🔒"
+      },
+      {
+         "title": "VR Neural Networks",
+         "url": null,
+         "img": "../images/portfolio/nn.png",
+         "description": "A visualization of neural networks in VR. Includes a neural network implementation in C# from scratch (yes, it's slow)."
+      },
+      {
+         "title": "Multi-modal Voice Assistant",
+         "url": "https://youtu.be/wD1gODGNrGE",
+         "img": "../images/portfolio/mmva.png",
+         "description": "A voice assistant (think Siri) augmented with context selection through an AR interface."
+      },
+      {
+         "title": "MADDPG Predator-Prey",
+         "url": null,
+         "img": "../images/portfolio/ppg.png",
+         "description": "An implementation of the MADDPG algorithm with Unity ML-Agents."
+      },
+      {
+         "title": "Chromatone",
+         "url": "https://youtu.be/-SmzZ0YtzQc",
+         "img": "../images/portfolio/chromatone.png",
+         "description": "A VR experience that allows interaction with individual instruments through modulation and particle visualizations."
+      },
+      {
+         "title": "Mizuna",
+         "url": "https://github.com/srodriguez1850/Mizuna",
+         "img": "../images/portfolio/mizuna.png",
+         "description": "Programmatic synchronization of graphs between IPython and Overleaf."
+      },
+      {
+         "title": "BEU",
+         "url": null,
+         "img": "../images/portfolio/beu2.png",
+         "description": "An exercise to implement fighting game mechanics in a side-scrolling beat 'em up domain."
+      },
+      {
+         "title": "Messenger URL Extractor",
+         "url": "https://extract.sebas.me",
+         "img": "../images/portfolio/murle.png",
+         "description": "A quick Python script to extract all URLs from a Facebook Messenger chat conversation."
+      },
+      {
+         "title": "Modular Tetris",
+         "url": null,
+         "img": "../images/portfolio/tetris.png",
+         "description": "An exercise to implement Tetris with modular frame-timing mechanics."
+      },
+      {
+         "title": "VR <em>n</em>-back Experiment",
+         "url": null,
+         "img": "../images/portfolio/cogproc.png",
+         "description": "A replication of the <em>n</em>-back task to test working memory in VR environments."
+      },
+      {
+         "title": "VR Proprioception Experiment",
+         "url": null,
+         "img": "../images/portfolio/proprioception.png",
+         "description": "An experiment to investigate how challenging is it for VR users to grab objects outside of their field of view."
+      },
+      {
+         "title": "Aurora",
+         "url": "https://github.com/antonpup/Aurora/commits?author=srodriguez1850",
+         "img": "../images/portfolio/aurora.png",
+         "description": "My contributions to an open-sourced utility that unifies RGB devices across different brands for synchronized lighting."
+      },
+      {
+         "title": "TIDALSign",
+         "url": "https://youtu.be/j-NQ40gS5eM",
+         "img": "../images/portfolio/tidalsign.png",
+         "description": "Learn American Sign Language through sensory gloves and haptic feedback."
+      },
+      {
+         "title": "JS<sup>3</sup>Inth",
+         "url": "https://github.com/srodriguez1850/JSInth",
+         "img": "../images/portfolio/jsinth.png",
+         "description": "Sine wave synthesizer and modulator for FPGA boards."
+      }
+   ],
+   "research": [
+      {
+         "title": "A Voice and Touch Multimodal Approach for Ambiguity Resolution in Voice Assistants",
+         "institution": "University of Illinois at Urbana-Champaign, Vanderbilt University",
+         "img": "../images/research/mmva.png",
+         "categorized": false,
+         "papers": [
+            {
+               "title": "ICMI 2021 Paper",
+               "doc": "../docs/ICMI2021_MultimodalVA.pdf",
+               "category": null
+            }
+         ]
+      },
+      {
+         "title": "Perceptions, Attitudes, and Strategy Formation in Human-Agent Teams in a Continuous Game-theoretic Environment",
+         "institution": "University of Illinois at Urbana-Champaign, Army Research Laboratory",
+         "img": "../images/research/predprey.png",
+         "categorized": true,
+         "papers": [
+            {
+               "title": "SPIE 2020 Paper",
+               "doc": "../docs/SPIE2020_HATComplacency.pdf",
+               "category": "Perceptions/Attitudes"
+            },
+            {
+               "title": "CSCE 2020 Paper",
+               "doc": "../docs/CSCE2020_EmergentStrats.pdf",
+               "category": "Strategy Formation"
+            },
+            {
+               "title": "SPIE 2020 Paper",
+               "doc": "../docs/SPIE2020_ErgodicDistros.pdf",
+               "category": "Strategy Formation"
+            },
+            {
+               "title": "CSCI 2019 Short Paper",
+               "doc": "../docs/CSCI2019_CoordinationProfiles.pdf",
+               "category": "Strategy Formation"
+            },
+            {
+               "title": "SPIE 2019 Paper",
+               "doc": "../docs/SPIE2019_Strategies.pdf",
+               "category": "Strategy Formation"
+            }
+         ]
+      },
+      {
+         "title": "Knowledge Complacency in Decision Support Systems",
+         "institution": "University of Illinois at Urbana-Champaign, Army Research Laboratory, University of California, Santa Barbara",
+         "img": "../images/research/dd.png",
+         "categorized": false,
+         "papers": [
+            {
+               "title": "CogSIMA 2019 Paper (Best Paper Award)",
+               "doc": "../docs/CogSIMA2019_Complacency.pdf",
+               "category": null
+            }
+         ]
+      },
+      {
+         "title": "Participatory Simulations for CS Education with a Hackable Electronic Conference Badge",
+         "institution": "Northwestern University",
+         "img": "../images/research/ecb.png",
+         "categorized": false,
+         "papers": [
+            {
+               "title": "IEEE ToE 2017 Article",
+               "doc": "../docs/IEEE2017_AllRoads.pdf",
+               "category": null
+            }
+         ]
+      }
+   ]
+}
