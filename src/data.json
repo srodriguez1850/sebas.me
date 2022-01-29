@@ -141,32 +141,32 @@
          "title": "Perceptions, Attitudes, and Strategy Formation in Human-Agent Teams in a Continuous Game-theoretic Environment",
          "institution": "University of Illinois at Urbana-Champaign, Army Research Laboratory",
          "img": "../images/research/predprey.png",
-         "categorized": false,
+         "categorized": true,
          "papers": [
             {
                "title": "SPIE 2020 Paper",
                "doc": "../docs/SPIE2020_HATComplacency.pdf",
-               "category": null
+               "category": "Perceptions/Attitudes"
             },
             {
                "title": "CSCE 2020 Paper",
                "doc": "../docs/CSCE2020_EmergentStrats.pdf",
-               "category": null
+               "category": "Strategy Formation"
             },
             {
                "title": "SPIE 2020 Paper",
                "doc": "../docs/SPIE2020_ErgodicDistros.pdf",
-               "category": null
+               "category": "Strategy Formation"
             },
             {
                "title": "CSCI 2019 Short Paper",
                "doc": "../docs/CSCI2019_CoordinationProfiles.pdf",
-               "category": null
+               "category": "Strategy Formation"
             },
             {
                "title": "SPIE 2019 Paper",
                "doc": "../docs/SPIE2019_Strategies.pdf",
-               "category": null
+               "category": "Strategy Formation"
             }
          ]
       },

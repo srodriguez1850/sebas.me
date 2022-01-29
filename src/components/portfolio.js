@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Helmet } from 'react-helmet';
 import './portfolio.css';
 
 import { Row } from 'react-bootstrap';
@@ -38,7 +37,6 @@ export default class Portfolio extends Component {
                 srodri44 [at] illinois [dot] edu
                 </h2>
               
-              
               <ul className="icons">
                 <li><a target="_blank" rel="noreferrer" href="./docs/cv.pdf"><img src="https://img.icons8.com/ios/96/000000/resume.png" alt="Download CV" width="32" height="32" title="CV" /></a></li>
                 <li><a target="_blank" rel="noreferrer" href="https://github.com/srodriguez1850"><img src="https://img.icons8.com/material-outlined/192/000000/github.png" alt="GitHub" width="32" height="32" title="GitHub" /></a></li>
@@ -69,13 +67,11 @@ export default class Portfolio extends Component {
 
               <Row className="row-cols-1">
               {Data.research.map(entry => {
-                return(<Paper key={entry.title} img={entry.img} title={entry.title} institution={entry.institution} papers={entry.papers}/>)
+                return(<Paper key={entry.title} img={entry.img} title={entry.title} institution={entry.institution} papers={entry.papers} categorized={entry.categorized}/>)
               })}
               </Row>
 
             </div>
-
-            
 
           </div>
 

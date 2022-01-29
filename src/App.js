@@ -2,8 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Home from './components/home'
-import Research from './components/research'
 import Portfolio from './components/portfolio'
 
 function App() {
