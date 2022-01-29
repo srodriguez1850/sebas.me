@@ -2,7 +2,7 @@
   "name": "sebas.me",
   "version": "1.0",
   "private": true,
-  "homepage": "https://srodriguez1850.github.io/sebas.me/",
+  "homepage": "https://sebas.me/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
