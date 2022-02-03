@@ -29,8 +29,8 @@ export default class Portfolio extends Component {
                 </p>
 
                 <p>
-                PhD ABD Computer Science @ <a href="https://cs.illinois.edu/"><strong>UIUC</strong></a><br/>
-                BS Computer Engineering @ <a href="https://www.mccormick.northwestern.edu/electrical-computer/"><strong>NU</strong></a>
+                PhD Candidate, Computer Science @ <a href="https://cs.illinois.edu/"><strong>University of Illinois at Urbana-Champaign</strong></a><br/>
+                BS, Computer Engineering @ <a href="https://www.mccormick.northwestern.edu/electrical-computer/"><strong>Northwestern University</strong></a>
                 </p>
 
                 <h2>
@@ -38,10 +38,11 @@ export default class Portfolio extends Component {
                 </h2>
               
               <ul className="icons">
-                <li><a target="_blank" rel="noreferrer" href="./docs/cv.pdf"><img src="https://img.icons8.com/ios/96/000000/resume.png" alt="Download CV" width="32" height="32" title="CV" /></a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://github.com/srodriguez1850"><img src="https://img.icons8.com/material-outlined/192/000000/github.png" alt="GitHub" width="32" height="32" title="GitHub" /></a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://scholar.google.com/citations?user=RdD2ZP8AAAAJ"><img src="https://img.icons8.com/material-outlined/96/000000/google-scholar.png" alt="Google Scholar" width="32" height="32" title="Google Scholar" /></a></li>
-                <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/srodriguez1850/"><img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn" width="32" height="32" title="LinkedIn" /></a></li>
+                <li><a target="_blank" rel="noreferrer" href="./docs/cv.pdf"><img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-cv-cv-resume-flatart-icons-outline-flatarticons.png" alt="Download CV" width="32" title="CV" /></a></li>
+                <li><a target="_blank" rel="noreferrer" href="./docs/resume.pdf"><img src="https://img.icons8.com/ios/96/000000/resume.png" alt="Download Resume" width="32" height="32" title="Resume" /></a></li>
+                <li><a target="_blank" rel="noreferrer" href="https://github.com/srodriguez1850"><img src="https://img.icons8.com/material-outlined/192/000000/github.png" alt="GitHub Profile" width="32" height="32" title="GitHub" /></a></li>
+                <li><a target="_blank" rel="noreferrer" href="https://scholar.google.com/citations?user=RdD2ZP8AAAAJ"><img src="https://img.icons8.com/material-outlined/96/000000/google-scholar.png" alt="Google Scholar Profile" width="32" height="32" title="Google Scholar" /></a></li>
+                <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/srodriguez1850/"><img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn Profile" width="32" height="32" title="LinkedIn" /></a></li>
               </ul>
               </header>
 
