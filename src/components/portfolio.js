@@ -24,6 +24,7 @@ export default class Portfolio extends Component {
                 <h1>Software Engineer and Researcher</h1>
                       
                 <p>
+                Research Data Scientist @ <a href="https://engineering.fb.com/category/data-infrastructure/"><strong>Meta</strong></a><br/>
                 Previously UX Research Intern @ <a href="https://tech.fb.com/"><strong>Meta</strong></a><br/>
                 Previously Research Fellow @ <a href="https://www.arl.army.mil/"><strong>Army Research Laboratory</strong></a><br></br>
                 </p>
