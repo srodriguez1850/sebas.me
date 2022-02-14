@@ -2,12 +2,6 @@
    "experience": [
       {
          "company": "Meta",
-         "title": "Research Data Scientist",
-         "year": "2022",
-         "img": "../images/research/meta.png"
-      },
-      {
-         "company": "Meta",
          "title": "UX Research Intern",
          "year": "2021",
          "img": "../images/research/meta.png"
