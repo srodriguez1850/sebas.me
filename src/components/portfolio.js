@@ -25,17 +25,16 @@ export default class Portfolio extends Component {
                       
                 <p>
                 Research Data Scientist @ <a href="https://engineering.fb.com/category/data-infrastructure/"><strong>Meta</strong></a><br/>
-                Previously UX Research Intern @ <a href="https://tech.fb.com/"><strong>Meta</strong></a><br/>
-                Previously Research Fellow @ <a href="https://www.arl.army.mil/"><strong>Army Research Laboratory</strong></a><br></br>
+                Previously @ <a href="https://tech.fb.com/"><strong>Meta</strong></a>, <a href="https://www.arl.army.mil/"><strong>Army Research Laboratory</strong></a><br/>
                 </p>
 
                 <p>
-                PhD Candidate, Computer Science @ <a href="https://cs.illinois.edu/"><strong>University of Illinois at Urbana-Champaign</strong></a><br/>
+                PhD, Computer Science @ <a href="https://cs.illinois.edu/"><strong>University of Illinois at Urbana-Champaign</strong></a><br/>
                 BS, Computer Engineering @ <a href="https://www.mccormick.northwestern.edu/electrical-computer/"><strong>Northwestern University</strong></a>
                 </p>
 
                 <h2>
-                srodri44 [at] illinois [dot] edu
+                sebastianr [at] fb [dot] com
                 </h2>
               
               <ul className="icons">
