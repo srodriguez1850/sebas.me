@@ -45,10 +45,10 @@
    ],
    "projects": [
       {
-         "title": "Facebook",
+         "title": "Reality Labs",
          "url": null,
-         "img": "../images/portfolio/frllogo.png",
-         "description": "Award-winning internal hackathon project for Facebook Reality Labs.<br>🔒"
+         "img": "../images/portfolio/rllogo.png",
+         "description": "Award-winning internal hackathon project for Reality Labs at Meta.<br>🔒"
       },
       {
          "title": "VR Neural Networks",
@@ -131,6 +131,32 @@
    ],
    "research": [
       {
+         "title": "\"Good Enough\" Agents: Investigating Designed Imperfections in Human-AI Teams Across Parallel Domains",
+         "institution": "University of Illinois at Urbana-Champaign",
+         "img": "../images/research/mmva.png",
+         "categorized": false,
+         "papers": [
+            {
+               "title": "Dissertation",
+               "doc": "../docs/UIST2022_RemoteStudy.pdf",
+               "category": null
+            }
+         ]
+      },
+      {
+         "title": "RemoteLab: A VR Remote Study Toolkit",
+         "institution": "University of Illinois at Urbana-Champaign, Vanderbilt University, Microsoft Research",
+         "img": "../images/research/remotelab.png",
+         "categorized": false,
+         "papers": [
+            {
+               "title": "UIST 2022 Paper",
+               "doc": "../docs/UIST2022_RemoteStudy.pdf",
+               "category": null
+            }
+         ]
+      },
+      {
          "title": "A Voice and Touch Multimodal Approach for Ambiguity Resolution in Voice Assistants",
          "institution": "University of Illinois at Urbana-Champaign, Vanderbilt University",
          "img": "../images/research/mmva.png",
@@ -149,6 +175,11 @@
          "img": "../images/research/predprey.png",
          "categorized": true,
          "papers": [
+            {
+               "title": "JCEDM 2022 Article",
+               "doc": "../docs/SPIE2020_HATComplacency.pdf",
+               "category": "Perceptions/Attitudes"
+            },
             {
                "title": "SPIE 2020 Paper",
                "doc": "../docs/SPIE2020_HATComplacency.pdf",
