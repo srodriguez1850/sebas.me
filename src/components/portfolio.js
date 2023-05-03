@@ -25,7 +25,7 @@ export default class Portfolio extends Component {
                       
                 <p>
                 Research Data Scientist @ <a href="https://engineering.fb.com/category/data-infrastructure/"><strong>Meta</strong></a><br/>
-                Previously @ <a href="https://tech.fb.com/"><strong>Meta</strong></a>, <a href="https://www.arl.army.mil/"><strong>Army Research Laboratory</strong></a><br/>
+                Previously @ <a href="https://tech.fb.com/"><strong>Meta (UXR)</strong></a>, <a href="https://www.arl.army.mil/"><strong>Army Research Laboratory</strong></a><br/>
                 </p>
 
                 <p>
@@ -34,7 +34,9 @@ export default class Portfolio extends Component {
                 </p>
 
                 <h2>
-                sebastianr [at] fb [dot] com
+                sebastianr [at] meta [dot] com
+                <br/>
+                s.rodriguez1850 [at] outlook [dot] com
                 </h2>
               
               <ul className="icons">

@@ -2,8 +2,8 @@
    "experience": [
       {
          "company": "Meta",
-         "title": "Research Data Scientist",
-         "year": "2022",
+         "title": "Analytics Engineer",
+         "year": "2022 - Present",
          "img": "../images/research/meta.png"
       },
       {
@@ -20,7 +20,7 @@
       },
       {
          "company": "Army Research Laboratory",
-         "title": "Research Intern",
+         "title": "Research Engineer Intern",
          "year": "2018",
          "img": "../images/research/arl.png"
       },
@@ -45,6 +45,30 @@
    ],
    "projects": [
       {
+         "title": "GazePointAR",
+         "url": null,
+         "img": "../images/portfolio/gazepointar.png",
+         "description": "A head-mounted AR voice assistant that answers questions using ambiguous pronouns (e.g., \"what is this?\")."
+      },
+      {
+         "title": "RemoteLab",
+         "url": "https://github.com/microsoft/Remote-Lab",
+         "img": "../images/portfolio/remotelab.png",
+         "description": "A Unity toolkit that enables researchers to conduct remote XR studies through state synchronization and event logging."
+      },
+      {
+         "title": "Savanna",
+         "url": null,
+         "img": "../images/portfolio/savanna.png",
+         "description": "A high-fidelity agent-based simulation of an African savanna to test the functionality of virtual IoT devices."
+      },
+      {
+         "title": "Sketcher",
+         "url": null,
+         "img": "../images/portfolio/sketcher.png",
+         "description": "A rudimentary WebGL tool to practice orthographic and isometric drawing."
+      },
+      {
          "title": "Reality Labs",
          "url": null,
          "img": "../images/portfolio/rllogo.png",
@@ -54,7 +78,7 @@
          "title": "VR Neural Networks",
          "url": null,
          "img": "../images/portfolio/nn.png",
-         "description": "A visualization of neural networks in VR. Includes a neural network implementation in C# from scratch (yes, it's slow)."
+         "description": "A visualization of neural networks in VR. Includes a neural network implementation in C# from scratch."
       },
       {
          "title": "Multi-modal Voice Assistant",
@@ -133,12 +157,30 @@
       {
          "title": "\"Good Enough\" Agents: Investigating Designed Imperfections in Human-AI Teams Across Parallel Domains",
          "institution": "University of Illinois at Urbana-Champaign",
-         "img": "../images/research/mmva.png",
+         "img": "../images/research/dissertation.png",
          "categorized": false,
          "papers": [
             {
                "title": "Dissertation",
-               "doc": "../docs/UIST2022_RemoteStudy.pdf",
+               "doc": "../docs/Dissertation.pdf",
+               "category": null
+            },
+            {
+               "title": "Slides",
+               "doc": "../docs/DefenseSlides.pdf",
+               "category": null
+            }
+         ]
+      },
+      {
+         "title": "GazePointAR: A Context-Aware Multimodal Voice Assistant for Pronoun Disambiguation in Wearable Augmented Reality",
+         "institution": "University of Washington, University of Illinois at Urbana-Champaign",
+         "img": "../images/research/gazepointar.png",
+         "categorized": false,
+         "papers": [
+            {
+               "title": "UIST 2023 Paper",
+               "doc": "../docs/UIST2023_MultimodalAR.pdf",
                "category": null
             }
          ]
@@ -177,7 +219,7 @@
          "papers": [
             {
                "title": "JCEDM 2022 Article",
-               "doc": "../docs/SPIE2020_HATComplacency.pdf",
+               "doc": "../docs/JCEDM2022_Mediation.pdf",
                "category": "Perceptions/Attitudes"
             },
             {
