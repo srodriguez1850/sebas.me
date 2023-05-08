@@ -2,7 +2,7 @@
    "experience": [
       {
          "company": "Meta",
-         "title": "Analytics Engineer",
+         "title": "Research Data Scientist",
          "year": "2022 - Present",
          "img": "../images/research/meta.png"
       },
@@ -48,7 +48,7 @@
          "title": "GazePointAR",
          "url": null,
          "img": "../images/portfolio/gazepointar.png",
-         "description": "A head-mounted AR voice assistant that answers questions using ambiguous pronouns (e.g., \"what is this?\")."
+         "description": "A head-mounted AR voice assistant that answers questions with ambiguous pronouns (e.g., \"what's <i>this</i>?\")."
       },
       {
          "title": "RemoteLab",
@@ -66,7 +66,19 @@
          "title": "Sketcher",
          "url": null,
          "img": "../images/portfolio/sketcher.png",
-         "description": "A rudimentary WebGL tool to practice orthographic and isometric drawing."
+         "description": "A featured WebGL tool to practice orthographic and isometric drawing."
+      },
+      {
+         "title": "Warehouse",
+         "url": null,
+         "img": "../images/portfolio/warehouse.png",
+         "description": "An experiment to investigate trust and embodiment effects with robotic agents in VR."
+      },
+      {
+         "title": "Metronome",
+         "url": "https://gallery.fitbit.com/details/221cc7d9-02a2-4920-b858-888950e5b502",
+         "img": "../images/portfolio/metronome.png",
+         "description": "A rudimentary haptic metronome for the Versa and Sense families of Fitbit devices."
       },
       {
          "title": "Reality Labs",
@@ -97,6 +109,12 @@
          "url": "https://youtu.be/-SmzZ0YtzQc",
          "img": "../images/portfolio/chromatone.png",
          "description": "A VR experience that allows interaction with individual instruments through modulation and particle visualizations."
+      },
+      {
+         "title": "Lieutenant",
+         "url": null,
+         "img": "../images/portfolio/lt.png",
+         "description": "An arcade-styled VR flight simulator. Explores different dimensions of locomotive comfort."
       },
       {
          "title": "Mizuna",
