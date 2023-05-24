@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 export default class GridSquare extends Component {
 	render() {
+		console.log(this.props.url)
 		return (
 			<article className="style0">
 				<span className="image">

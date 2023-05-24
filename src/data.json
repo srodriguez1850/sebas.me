@@ -2,7 +2,7 @@
    "experience": [
       {
          "company": "Meta",
-         "title": "Research Data Scientist",
+         "title": "Analytics Engineer",
          "year": "2022 - Present",
          "img": "../images/research/meta.png"
       },
@@ -75,10 +75,10 @@
          "description": "An experiment to investigate trust and embodiment effects with robotic agents in VR."
       },
       {
-         "title": "Metronome",
-         "url": "https://gallery.fitbit.com/details/221cc7d9-02a2-4920-b858-888950e5b502",
-         "img": "../images/portfolio/metronome.png",
-         "description": "A rudimentary haptic metronome for the Versa and Sense families of Fitbit devices."
+         "title": "Badminton",
+         "url": "https://gallery.fitbit.com/details/f4ffed41-6f96-4007-83d8-4bdcbb400a83",
+         "img": "../images/portfolio/badminton.png",
+         "description": "A point tracker for Badminton games for the Versa and Sense families of Fitbit devices."
       },
       {
          "title": "Reality Labs",
@@ -97,6 +97,12 @@
          "url": "https://youtu.be/wD1gODGNrGE",
          "img": "../images/portfolio/mmva.png",
          "description": "A voice assistant (think Siri) augmented with context selection through an AR interface."
+      },
+      {
+         "title": "Metronome",
+         "url": "https://gallery.fitbit.com/details/221cc7d9-02a2-4920-b858-888950e5b502",
+         "img": "../images/portfolio/metronome.png",
+         "description": "A rudimentary haptic metronome for the Versa and Sense families of Fitbit devices."
       },
       {
          "title": "MADDPG Predator-Prey",
@@ -148,7 +154,7 @@
       },
       {
          "title": "VR Proprioception Experiment",
-         "url": null,
+         "url": "/proprioception",
          "img": "../images/portfolio/proprioception.png",
          "description": "An experiment to investigate how challenging is it for VR users to grab objects outside of their field of view."
       },
@@ -197,8 +203,8 @@
          "categorized": false,
          "papers": [
             {
-               "title": "UIST 2023 Paper",
-               "doc": "../docs/UIST2023_MultimodalAR.pdf",
+               "title": "In Submission",
+               "doc": "",
                "category": null
             }
          ]

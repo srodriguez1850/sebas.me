@@ -6,7 +6,14 @@ export default class PaperLink extends Component {
 		return (<>
 			<p>
             	{props.papers.map((entry, index) => {
-            		return(<><a key={entry.title+entry.doc} target="_blank" rel="noreferrer" href={entry.doc}><strong>{entry.title}</strong></a>{(index < this.props.papers.length-1 ? ', ' : '')}</>)
+            		if (entry.doc === "" || entry.doc === null)
+            		{
+            			return(<><strong>{entry.title}</strong></>)
+            		}
+            		else
+            		{
+            			return(<><a key={entry.title+entry.doc} target="_blank" rel="noreferrer" href={entry.doc}><strong>{entry.title}</strong></a>{(index < this.props.papers.length-1 ? ', ' : '')}</>)
+            		}
             	})}
     		</p>
     	</>)
@@ -26,13 +33,19 @@ export default class PaperLink extends Component {
 
 		return (<>
 		{Object.entries(categories).map(([key, value]) => {
-				console.log(value)
-
 				return(<>
 					<i>{key}</i>: {value.map((entry, index) => {
 						var title = entry[0]
 						var link = entry[1]
-						return(<><a key={title} target="_blank" rel="noreferrer" href={link}><strong>{title}</strong></a>{(index < value.length-1 ? ', ' : '')}</>)
+
+						if (link === "" || link === null)
+						{
+							return (<><strong>{title}</strong></>)
+						}
+						else
+						{
+							return(<><a key={title} target="_blank" rel="noreferrer" href={link}><strong>{title}</strong></a>{(index < value.length-1 ? ', ' : '')}</>)	
+						}
 					})}<br />
 				</>)
 
