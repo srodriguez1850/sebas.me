@@ -51,7 +51,7 @@ const Proprioception = () => {
               <br />
               1) Proprioception relative to one's body is much easier to execute than proprioception relative to the environment. Hence why it is easier for VR inventory systems attached to the player's body to be used with enough training and muscle memory. Everyone had a rough time reaching for objects farther than their own bodies!
               <br />
-              2) 360&deg tracking is still needed for precise tracking of objects behind us (these interactions are seen often: backpacks, swords, levers behind us, etc.), thus inside-out tracking systems face limitations when controllers fall outside of the cameras' field of view.</p>
+              2) 360&deg; tracking is still needed for precise tracking of objects behind us (these interactions are seen often: backpacks, swords, levers behind us, etc.), thus inside-out tracking systems face limitations when controllers fall outside of the cameras' field of view.</p>
             </div>
             <div class="align-center">
               <a href="/" class="button">Back</a>

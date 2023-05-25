@@ -7,7 +7,7 @@ export default class Grid extends Component {
 		return (
 			<section className="tiles">
 				{Data.projects.map(entry => {
-					return (<GridSquare key={entry.title} title={entry.title} description={entry.description} url={entry.url} img={entry.img} />)
+					return (<GridSquare key={entry.title} title={entry.title} description={entry.description} url={entry.url} img={entry.img} newtab={entry.newtab} />)
 				})}
 			</section>
 		)
