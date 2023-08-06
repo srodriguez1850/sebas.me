@@ -24,13 +24,13 @@ export default class Portfolio extends Component {
                 <h1>Software Engineer and Researcher</h1>
                       
                 <p>
-                Analytics Engineer @ <a href="https://engineering.fb.com/category/data-infrastructure/"><strong>Meta</strong></a><br/>
-                Previously @ <a href="https://www.arl.army.mil/"><strong>Army Research Laboratory</strong></a><br/>
+                Analytics Engineer @ <a href="https://engineering.fb.com/category/data-infrastructure/" target="_blank" rel="noreferrer"><strong>Meta</strong></a><br/>
+                Previously @ <a href="https://www.arl.army.mil/" target="_blank" rel="noreferrer"><strong>Army Research Laboratory</strong></a><br/>
                 </p>
 
                 <p>
-                PhD, Computer Science @ <a href="https://cs.illinois.edu/"><strong>University of Illinois at Urbana-Champaign</strong></a><br/>
-                BS, Computer Engineering @ <a href="https://www.mccormick.northwestern.edu/electrical-computer/"><strong>Northwestern University</strong></a>
+                Ph.D., Computer Science @ <a href="https://cs.illinois.edu/" target="_blank" rel="noreferrer"><strong>University of Illinois at Urbana-Champaign</strong></a><br/>
+                B.S., Computer Engineering @ <a href="https://www.mccormick.northwestern.edu/electrical-computer/" target="_blank" rel="noreferrer"><strong>Northwestern University</strong></a>
                 </p>
 
                 <h2>

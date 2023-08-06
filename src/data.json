@@ -7,6 +7,12 @@
          "img": "../images/research/meta.png"
       },
       {
+         "company": "University of Illinois at Urbana-Champaign",
+         "title": "Graduate Researcher",
+         "year": "2016 - 2022",
+         "img": "../images/research/illinois.png"
+      },
+      {
          "company": "Meta",
          "title": "UX Research Intern",
          "year": "2021",
@@ -25,12 +31,6 @@
          "img": "../images/research/arl.png"
       },
       {
-         "company": "University of Illinois at Urbana-Champaign",
-         "title": "Graduate Research Assistant",
-         "year": "2016 - 2018",
-         "img": "../images/research/illinois.png"
-      },
-      {
          "company": "Northwestern University",
          "title": "Undergraduate Research Assistant",
          "year": "2015 - 2016",
@@ -46,7 +46,7 @@
    "projects": [
       {
          "title": "GazePointAR",
-         "url": null,
+         "url": "https://youtu.be/dKZPn61AeXo",
          "img": "../images/portfolio/gazepointar.png",
          "description": "A head-mounted AR voice assistant that answers questions with ambiguous pronouns (e.g., \"what's <i>this</i>?\").",
          "newtab": true
@@ -56,6 +56,13 @@
          "url": "https://github.com/microsoft/Remote-Lab",
          "img": "../images/portfolio/remotelab.png",
          "description": "A Unity toolkit that enables researchers to conduct remote XR studies through state synchronization and event logging.",
+         "newtab": true
+      },
+      {
+         "title": "WristFob",
+         "url": "https://gallery.fitbit.com/details/092118b8-c3d5-425a-96de-0099ee0fec13?key=e4fbfdd2-d20c-426a-95a8-ca79f5d9bbe8",
+         "img": "../images/portfolio/wristfob.png",
+         "description": "An application to control Tesla vehicles from Versa and Sense families of Fitbit devices.",
          "newtab": true
       },
       {
@@ -81,16 +88,16 @@
       },
       {
          "title": "Badminton",
-         "url": "https://gallery.fitbit.com/details/f4ffed41-6f96-4007-83d8-4bdcbb400a83",
+         "url": "/badminton",
          "img": "../images/portfolio/badminton.png",
          "description": "A point tracker for Badminton games for the Versa and Sense families of Fitbit devices.",
-         "newtab": true
+         "newtab": false
       },
       {
          "title": "Reality Labs",
          "url": null,
          "img": "../images/portfolio/rllogo.png",
-         "description": "Award-winning internal hackathon project for Reality Labs at Meta.<br>🔒",
+         "description": "Prototype of a multiplayer co-location VR experience for the Quest product line.<br>🔒",
          "newtab": true
       },
       {
@@ -151,17 +158,17 @@
       },
       {
          "title": "Messenger URL Extractor",
-         "url": "https://extract.sebas.me",
+         "url": "https://msgr-url-extractor.srodriguez1850.repl.co",
          "img": "../images/portfolio/murle.png",
          "description": "A quick Python script to extract all URLs from a Facebook Messenger chat conversation.",
          "newtab": true
       },
       {
          "title": "Modular Tetris",
-         "url": null,
+         "url": "/tetris",
          "img": "../images/portfolio/tetris.png",
          "description": "An exercise to implement Tetris with modular frame-timing mechanics.",
-         "newtab": true
+         "newtab": false
       },
       {
          "title": "VR <em>n</em>-back Experiment",
@@ -240,6 +247,11 @@
             {
                "title": "UIST 2022 Paper",
                "doc": "../docs/UIST2022_RemoteStudy.pdf",
+               "category": null
+            },
+            {
+               "title": "Microsoft Research Post",
+               "doc": "https://www.microsoft.com/en-us/research/publication/remotelab/",
                "category": null
             }
          ]

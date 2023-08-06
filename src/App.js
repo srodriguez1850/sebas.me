@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Portfolio from './components/portfolio'
 import Proprioception from './pages/proprioception'
+import Badminton from './pages/badminton'
+import Tetris from './pages/tetris'
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Portfolio />} />
         <Route path='/proprioception' element={<Proprioception />} />
+        <Route path='/badminton' element={<Badminton />} />
+        <Route path='/tetris' element={<Tetris />} />
       </Routes>
     </Router>
     );
