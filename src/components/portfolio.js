@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './portfolio.css';
 
-import { Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 
 import Header from './header'
 import Grid from './grid'
@@ -21,11 +21,10 @@ export default class Portfolio extends Component {
           <div id="main">
             <div className="inner">
               <header>
-                <h1>Software Engineer and Researcher</h1>
-                      
+                <h1>Software and XR Engineer</h1>
                 <p>
                 Analytics Engineer @ <a href="https://engineering.fb.com/category/data-infrastructure/" target="_blank" rel="noreferrer"><strong>Meta</strong></a><br/>
-                Previously @ <a href="https://www.arl.army.mil/" target="_blank" rel="noreferrer"><strong>Army Research Laboratory</strong></a><br/>
+                Previously @ <a href="https://www.arl.army.mil/" target="_blank" rel="noreferrer"><strong>U.S. Army Research Laboratory</strong></a><br/>
                 </p>
 
                 <p>
@@ -50,11 +49,13 @@ export default class Portfolio extends Component {
 
               <h1>Experience</h1>
 
-              <Row className="row-cols-3">
+              <Container>
+              <Row xs={1} sm={2} md={3}>
               {Data.experience.map(entry => {
                 return(<Experience key={entry.company+entry.title} img={entry.img} company={entry.company} title={entry.title} year={entry.year} />)
               })}
               </Row>
+              </Container>
 
               <hr />
 
@@ -66,11 +67,13 @@ export default class Portfolio extends Component {
 
               <h1>Research</h1>
 
-              <Row className="row-cols-1">
+              {/*<Container>*/}
+              <Row xs={1}>
               {Data.research.map(entry => {
                 return(<Paper key={entry.title} img={entry.img} title={entry.title} institution={entry.institution} papers={entry.papers} categorized={entry.categorized}/>)
               })}
               </Row>
+              {/*</Container>*/}
 
             </div>
 

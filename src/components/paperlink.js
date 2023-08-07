@@ -1,18 +1,26 @@
 import React, { Component } from 'react';
 
 export default class PaperLink extends Component {
+
+	stripChars(inputString) {
+  		const words = inputString.replace(/\s+/g, '');
+  		return words;
+	}
+
 	noncategorized(props)
 	{
 		return (<>
 			<p>
             	{props.papers.map((entry, index) => {
+
             		if (entry.doc === "" || entry.doc === null)
             		{
             			return(<><strong>{entry.title}</strong></>)
             		}
             		else
             		{
-            			return(<><a key={entry.title+entry.doc} target="_blank" rel="noreferrer" href={entry.doc}><strong>{entry.title}</strong></a>{(index < this.props.papers.length-1 ? ', ' : '')}</>)
+            			var inKey = this.stripChars(`${entry.title+entry.doc}`);
+            			return(<><a key={inKey} target="_blank" rel="noreferrer" href={entry.doc}><strong>{entry.title}</strong></a>{(index < this.props.papers.length-1 ? ', ' : '')}</>)
             		}
             	})}
     		</p>
@@ -44,7 +52,8 @@ export default class PaperLink extends Component {
 						}
 						else
 						{
-							return(<><a key={title} target="_blank" rel="noreferrer" href={link}><strong>{title}</strong></a>{(index < value.length-1 ? ', ' : '')}</>)	
+							var inKey = this.stripChars(`${key+title}`);
+							return(<><a key={inKey} target="_blank" rel="noreferrer" href={link}><strong>{title}</strong></a>{(index < value.length-1 ? ', ' : '')}</>)	
 						}
 					})}<br />
 				</>)

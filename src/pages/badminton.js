@@ -6,26 +6,26 @@ const Badminton = () => {
     <div id="wrapper">
     <Header />
     <div id="main">
-            <div class="inner">
+            <div className="inner">
               <h1>Badminton</h1>
 
               
               
-              <div class="align-center">
-              <span class="image page"><img src="../images/portfolio/badminton.png" alt="Screenshot of Fitbit Badminton application" /></span>
+              <div className="align-center">
+              <span className="image page"><img src="../images/portfolio/badminton.png" alt="Screenshot of Fitbit Badminton application" /></span>
               </div>
               
-              <div class="align-center">
-                <a target="_blank" rel="noreferrer" href="https://gallery.fitbit.com/details/f4ffed41-6f96-4007-83d8-4bdcbb400a83" class="button primary">Download</a>
+              <div className="align-center">
+                <a target="_blank" rel="noreferrer" href="https://gallery.fitbit.com/details/f4ffed41-6f96-4007-83d8-4bdcbb400a83" className="button primary">Download</a>
               </div>
 
               <br />
 
-              <h2 class="align-center">Overview</h2>
-              <p class="align-center">
+              <h2 className="align-center">Overview</h2>
+              <p className="align-center">
               This is a simple Fitbit application that keeps track of the score of a badminton game. Features include indicating the serving player and side, handling deuces, and the 30-point maximum.
               </p>
-              <p class="align-center">
+              <p className="align-center">
               Questions, comments, concerns? Feel free to drop an email at <a href="mailto:ss.rodriguez1850@gmail.com">ss.rodriguez1850@gmail.com</a>.
               </p>
               
@@ -63,8 +63,8 @@ const Badminton = () => {
                 <li>Initial release.</li>
               </ul>
             </div>
-            <div class="align-center">
-              <a href="/" class="button">Back</a>
+            <div className="align-center">
+              <a href="/" className="button">Back</a>
             </div>
           </div>
           </div>

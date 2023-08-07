@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { Col } from 'react-bootstrap';
+import { Col, Image } from 'react-bootstrap';
 
 export default class Experience extends Component {
 	render() {
 		return (
 			<>
-				<Col>
-	            	<img className="mx-auto d-block rounded-circle" src={`${this.props.img}`} height="120" alt="" />
+				<Col className="d-flex flex-column align-items-center">
+					<Image src={`${this.props.img}`} style={{ maxWidth: '120px', maxHeight: '120px' }} rounded fluid />
 	            	<p className="text-center">
 	              	<b>{this.props.company}</b>
 	              	<br />
