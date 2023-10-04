@@ -15,12 +15,12 @@ export default class PaperLink extends Component {
 
             		if (entry.doc === "" || entry.doc === null)
             		{
-            			return(<><strong>{entry.title}</strong></>)
+            			return(<>{entry.title}</>)
             		}
             		else
             		{
             			var inKey = this.stripChars(`${entry.title+entry.doc}`);
-            			return(<><a key={inKey} target="_blank" rel="noreferrer" href={entry.doc}><strong>{entry.title}</strong></a>{(index < this.props.papers.length-1 ? ', ' : '')}</>)
+            			return(<><a key={inKey} target="_blank" rel="noreferrer" href={entry.doc}>{entry.title}</a>{(index < this.props.papers.length-1 ? ', ' : '')}</>)
             		}
             	})}
     		</p>
@@ -48,12 +48,12 @@ export default class PaperLink extends Component {
 
 						if (link === "" || link === null)
 						{
-							return (<><strong>{title}</strong></>)
+							return (<>{title}</>)
 						}
 						else
 						{
 							var inKey = this.stripChars(`${key+title}`);
-							return(<><a key={inKey} target="_blank" rel="noreferrer" href={link}><strong>{title}</strong></a>{(index < value.length-1 ? ', ' : '')}</>)	
+							return(<><a key={inKey} target="_blank" rel="noreferrer" href={link}>{title}</a>{(index < value.length-1 ? ', ' : '')}</>)	
 						}
 					})}<br />
 				</>)

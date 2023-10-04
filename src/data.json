@@ -3,11 +3,17 @@
       {
          "company": "Meta",
          "title": "Analytics Engineer",
-         "year": "2022 - Present",
+         "year": "2022 - 2023",
          "img": "../images/research/meta.png"
       },
       {
-         "company": "University of Illinois at Urbana-Champaign",
+         "company": "Computer Science @ Illinois",
+         "title": "Lead Software Developer",
+         "year": "2021 - 2022",
+         "img": "../images/research/illinois.png"
+      },
+      {
+         "company": "Computer Science @ Illinois",
          "title": "Graduate Researcher",
          "year": "2016 - 2022",
          "img": "../images/research/illinois.png"
@@ -26,7 +32,7 @@
       },
       {
          "company": "Army Research Laboratory",
-         "title": "Research Engineer Intern",
+         "title": "Software Engineer Intern",
          "year": "2018",
          "img": "../images/research/arl.png"
       },
@@ -232,7 +238,7 @@
          "categorized": false,
          "papers": [
             {
-               "title": "In Submission",
+               "title": "UIST 2023 Demo",
                "doc": "",
                "category": null
             }
