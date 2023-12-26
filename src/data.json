@@ -1,52 +1,58 @@
 {
    "experience": [
       {
+         "company": "Amazon",
+         "title": "Software Development Engineer",
+         "year": "2024 - Present",
+         "img": "../images/experience/amazon.jpg"
+      },
+      {
          "company": "Meta",
          "title": "Analytics Engineer",
          "year": "2022 - 2023",
-         "img": "../images/research/meta.png"
+         "img": "../images/experience/meta.png"
       },
       {
          "company": "Computer Science @ Illinois",
          "title": "Lead Software Developer",
          "year": "2021 - 2022",
-         "img": "../images/research/illinois.png"
+         "img": "../images/experience/illinois.png"
       },
       {
          "company": "Computer Science @ Illinois",
          "title": "Graduate Researcher",
          "year": "2016 - 2022",
-         "img": "../images/research/illinois.png"
+         "img": "../images/experience/illinois.png"
       },
       {
          "company": "Meta",
          "title": "UX Research Intern",
          "year": "2021",
-         "img": "../images/research/meta.png"
+         "img": "../images/experience/meta.png"
       },
       {
          "company": "Army Research Laboratory",
          "title": "Research Fellow",
          "year": "2018 - 2020",
-         "img": "../images/research/arl.png"
+         "img": "../images/experience/arl.png"
       },
       {
          "company": "Army Research Laboratory",
          "title": "Software Engineer Intern",
          "year": "2018",
-         "img": "../images/research/arl.png"
+         "img": "../images/experience/arl.png"
       },
       {
          "company": "Northwestern University",
          "title": "Undergraduate Research Assistant",
          "year": "2015 - 2016",
-         "img": "../images/research/nu.jpg"
+         "img": "../images/experience/nu.jpg"
       },
       {
          "company": "Washington State University",
          "title": "Undergraduate Research Intern",
          "year": "2015",
-         "img": "../images/research/wsu.png"
+         "img": "../images/experience/wsu.png"
       }
    ],
    "projects": [
@@ -214,6 +220,19 @@
    ],
    "research": [
       {
+         "title": "Validating Trust in Human-Robot Interaction Through Virtual Reality: Comparing Embodied and \"Behind-the-Screen\" Interactions",
+         "institution": "University of Illinois at Urbana-Champaign",
+         "img": "../images/research/warehouse.png",
+         "categorized": false,
+         "papers": [
+            {
+               "title": "AHFE 2023 Paper",
+               "doc": "../docs/AHFE2023_VRTrust.pdf",
+               "category": null
+            }
+         ]
+      },
+      {
          "title": "\"Good Enough\" Agents: Investigating Designed Imperfections in Human-AI Teams Across Parallel Domains",
          "institution": "University of Illinois at Urbana-Champaign",
          "img": "../images/research/dissertation.png",
@@ -239,7 +258,7 @@
          "papers": [
             {
                "title": "UIST 2023 Demo",
-               "doc": "",
+               "doc": "../docs/UIST2023_ARVADemo.pdf",
                "category": null
             }
          ]
