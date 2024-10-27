@@ -1,13 +1,13 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
+// import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Portfolio from './components/portfolio'
-import Proprioception from './pages/proprioception'
 import Badminton from './pages/badminton'
+import Proprioception from './pages/proprioception'
 import Tetris from './pages/tetris'
 
-function App() {
+function App () {
   return (
     <Router>
       <Routes>
@@ -17,7 +17,7 @@ function App() {
         <Route path='/tetris' element={<Tetris />} />
       </Routes>
     </Router>
-    );
+  )
 }
 
-export default App;
+export default App
