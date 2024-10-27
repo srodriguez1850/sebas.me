@@ -260,6 +260,11 @@
                "title": "UIST 2023 Demo",
                "doc": "../docs/UIST2023_ARVADemo.pdf",
                "category": null
+            },
+            {
+               "title": "CHI 2024 Paper",
+               "doc": "../docs/CHI2024_ARVA.pdf",
+               "category": null
             }
          ]
       },

@@ -29,7 +29,7 @@ export default class Portfolio extends Component {
                 In a previous life, I completed my doctorate in Computer Science at the <a href="https://cs.illinois.edu/" target="_blank" rel="noreferrer">University of Illinois at Urbana-Champaign</a> advised by <a href="https://cs.illinois.edu/about/people/faculty/kirlik" target="_blank" rel="noreferrer">Prof. Alex Kirlik</a>, and before, completed a bachelor's in Computer Engineering at <a href="https://www.mccormick.northwestern.edu/electrical-computer/" target="_blank" rel="noreferrer">Northwestern University</a>.
                 </p>
                 <p>
-                Some neat, present and past, things I've worked on:
+                Some neat things I've worked on:
                 <br/>
                 <ul>
                   <li>Developed data models and reporting tools to help new features in <a href="https://engineering.fb.com/category/data-infrastructure/" target="_blank" rel="noreferrer">Meta</a>'s products be responsible with sensitive user data,</li>
