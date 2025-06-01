@@ -1,362 +1,365 @@
 {
-   "experience": [
-      {
-         "company": "Amazon",
-         "title": "Software Development Engineer",
-         "year": "2024 - Present",
-         "img": "../images/experience/amazon.jpg"
-      },
-      {
-         "company": "Meta",
-         "title": "Analytics Engineer",
-         "year": "2022 - 2023",
-         "img": "../images/experience/meta.png"
-      },
-      {
-         "company": "Computer Science @ Illinois",
-         "title": "Lead Software Developer",
-         "year": "2021 - 2022",
-         "img": "../images/experience/illinois.png"
-      },
-      {
-         "company": "Computer Science @ Illinois",
-         "title": "Graduate Researcher",
-         "year": "2016 - 2022",
-         "img": "../images/experience/illinois.png"
-      },
-      {
-         "company": "Meta",
-         "title": "UX Research Intern",
-         "year": "2021",
-         "img": "../images/experience/meta.png"
-      },
-      {
-         "company": "Army Research Laboratory",
-         "title": "Research Fellow",
-         "year": "2018 - 2020",
-         "img": "../images/experience/arl.png"
-      },
-      {
-         "company": "Army Research Laboratory",
-         "title": "Software Engineer Intern",
-         "year": "2018",
-         "img": "../images/experience/arl.png"
-      },
-      {
-         "company": "Northwestern University",
-         "title": "Undergraduate Research Assistant",
-         "year": "2015 - 2016",
-         "img": "../images/experience/nu.jpg"
-      },
-      {
-         "company": "Washington State University",
-         "title": "Undergraduate Research Intern",
-         "year": "2015",
-         "img": "../images/experience/wsu.png"
-      }
-   ],
-   "projects": [
-      {
-         "title": "GazePointAR",
-         "url": "https://youtu.be/dKZPn61AeXo",
-         "img": "../images/portfolio/gazepointar.png",
-         "description": "A head-mounted AR voice assistant that answers questions with ambiguous pronouns (e.g., \"what's <i>this</i>?\").",
-         "newtab": true
-      },
-      {
-         "title": "RemoteLab",
-         "url": "https://github.com/microsoft/Remote-Lab",
-         "img": "../images/portfolio/remotelab.png",
-         "description": "A Unity toolkit that enables researchers to conduct remote XR studies through state synchronization and event logging.",
-         "newtab": true
-      },
-      {
-         "title": "WristFob",
-         "url": "https://gallery.fitbit.com/details/092118b8-c3d5-425a-96de-0099ee0fec13?key=e4fbfdd2-d20c-426a-95a8-ca79f5d9bbe8",
-         "img": "../images/portfolio/wristfob.png",
-         "description": "An application to control Tesla vehicles from Versa and Sense families of Fitbit devices.",
-         "newtab": true
-      },
-      {
-         "title": "Savanna",
-         "url": null,
-         "img": "../images/portfolio/savanna.png",
-         "description": "A high-fidelity agent-based simulation of an African savanna to test the functionality of virtual IoT devices.",
-         "newtab": true
-      },
-      {
-         "title": "Sketcher",
-         "url": null,
-         "img": "../images/portfolio/sketcher.png",
-         "description": "A featured WebGL tool to practice orthographic and isometric drawing.",
-         "newtab": true
-      },
-      {
-         "title": "Warehouse",
-         "url": null,
-         "img": "../images/portfolio/warehouse.png",
-         "description": "An experiment to investigate trust and embodiment effects with robotic agents in VR.",
-         "newtab": true
-      },
-      {
-         "title": "Badminton",
-         "url": "/badminton",
-         "img": "../images/portfolio/badminton.png",
-         "description": "A point tracker for Badminton games for the Versa and Sense families of Fitbit devices.",
-         "newtab": false
-      },
-      {
-         "title": "Reality Labs",
-         "url": null,
-         "img": "../images/portfolio/rllogo.png",
-         "description": "Prototype of a multiplayer co-location VR experience for the Quest product line.<br>🔒",
-         "newtab": true
-      },
-      {
-         "title": "VR Neural Networks",
-         "url": null,
-         "img": "../images/portfolio/nn.png",
-         "description": "A visualization of neural networks in VR. Includes a neural network implementation in C# from scratch.",
-         "newtab": true
-      },
-      {
-         "title": "Multi-modal Voice Assistant",
-         "url": "https://youtu.be/wD1gODGNrGE",
-         "img": "../images/portfolio/mmva.png",
-         "description": "A voice assistant (think Siri) augmented with context selection through an AR interface.",
-         "newtab": true
-      },
-      {
-         "title": "Metronome",
-         "url": "https://gallery.fitbit.com/details/221cc7d9-02a2-4920-b858-888950e5b502",
-         "img": "../images/portfolio/metronome.png",
-         "description": "A rudimentary haptic metronome for the Versa and Sense families of Fitbit devices.",
-         "newtab": true
-      },
-      {
-         "title": "MADDPG Predator-Prey",
-         "url": null,
-         "img": "../images/portfolio/ppg.png",
-         "description": "An implementation of the MADDPG algorithm with Unity ML-Agents.",
-         "newtab": true
-      },
-      {
-         "title": "Chromatone",
-         "url": "https://youtu.be/-SmzZ0YtzQc",
-         "img": "../images/portfolio/chromatone.png",
-         "description": "A VR experience that allows interaction with individual instruments through modulation and particle visualizations.",
-         "newtab": true
-      },
-      {
-         "title": "Lieutenant",
-         "url": null,
-         "img": "../images/portfolio/lt.png",
-         "description": "An arcade-styled VR flight simulator. Explores different dimensions of locomotive comfort.",
-         "newtab": true
-      },
-      {
-         "title": "Mizuna",
-         "url": "https://github.com/srodriguez1850/Mizuna",
-         "img": "../images/portfolio/mizuna.png",
-         "description": "Programmatic synchronization of graphs between IPython and Overleaf.",
-         "newtab": true
-      },
-      {
-         "title": "BEU",
-         "url": null,
-         "img": "../images/portfolio/beu2.png",
-         "description": "An exercise to implement fighting game mechanics in a side-scrolling beat 'em up domain.",
-         "newtab": true
-      },
-      {
-         "title": "Messenger URL Extractor",
-         "url": "https://msgr-url-extractor.srodriguez1850.repl.co",
-         "img": "../images/portfolio/murle.png",
-         "description": "A quick Python script to extract all URLs from a Facebook Messenger chat conversation.",
-         "newtab": true
-      },
-      {
-         "title": "Modular Tetris",
-         "url": "/tetris",
-         "img": "../images/portfolio/tetris.png",
-         "description": "An exercise to implement Tetris with modular frame-timing mechanics.",
-         "newtab": false
-      },
-      {
-         "title": "VR <em>n</em>-back Experiment",
-         "url": null,
-         "img": "../images/portfolio/cogproc.png",
-         "description": "A replication of the <em>n</em>-back task to test working memory in VR environments.",
-         "newtab": true
-      },
-      {
-         "title": "VR Proprioception Experiment",
-         "url": "/proprioception",
-         "img": "../images/portfolio/proprioception.png",
-         "description": "An experiment to investigate how challenging is it for VR users to grab objects outside of their field of view.",
-         "newtab": false
-      },
-      {
-         "title": "Aurora",
-         "url": "https://github.com/antonpup/Aurora/commits?author=srodriguez1850",
-         "img": "../images/portfolio/aurora.png",
-         "description": "My contributions to an open-sourced utility that unifies RGB devices across different brands for synchronized lighting.",
-         "newtab": true
-      },
-      {
-         "title": "TIDALSign",
-         "url": "https://youtu.be/j-NQ40gS5eM",
-         "img": "../images/portfolio/tidalsign.png",
-         "description": "Learn American Sign Language through sensory gloves and haptic feedback.",
-         "newtab": true
-      },
-      {
-         "title": "JS<sup>3</sup>Inth",
-         "url": "https://github.com/srodriguez1850/JSInth",
-         "img": "../images/portfolio/jsinth.png",
-         "description": "Sine wave synthesizer and modulator for FPGA boards.",
-         "newtab": true
-      }
-   ],
-   "research": [
-      {
-         "title": "Validating Trust in Human-Robot Interaction Through Virtual Reality: Comparing Embodied and \"Behind-the-Screen\" Interactions",
-         "institution": "University of Illinois at Urbana-Champaign",
-         "img": "../images/research/warehouse.png",
-         "categorized": false,
-         "papers": [
-            {
-               "title": "AHFE 2023 Paper",
-               "doc": "../docs/AHFE2023_VRTrust.pdf",
-               "category": null
-            }
-         ]
-      },
-      {
-         "title": "\"Good Enough\" Agents: Investigating Designed Imperfections in Human-AI Teams Across Parallel Domains",
-         "institution": "University of Illinois at Urbana-Champaign",
-         "img": "../images/research/dissertation.png",
-         "categorized": false,
-         "papers": [
-            {
-               "title": "Dissertation",
-               "doc": "../docs/Dissertation.pdf",
-               "category": null
-            },
-            {
-               "title": "Slides",
-               "doc": "../docs/DefenseSlides.pdf",
-               "category": null
-            }
-         ]
-      },
-      {
-         "title": "GazePointAR: A Context-Aware Multimodal Voice Assistant for Pronoun Disambiguation in Wearable Augmented Reality",
-         "institution": "University of Washington, University of Illinois at Urbana-Champaign",
-         "img": "../images/research/gazepointar.png",
-         "categorized": false,
-         "papers": [
-            {
-               "title": "UIST 2023 Demo",
-               "doc": "../docs/UIST2023_ARVADemo.pdf",
-               "category": null
-            },
-            {
-               "title": "CHI 2024 Paper",
-               "doc": "../docs/CHI2024_ARVA.pdf",
-               "category": null
-            }
-         ]
-      },
-      {
-         "title": "RemoteLab: A VR Remote Study Toolkit",
-         "institution": "University of Illinois at Urbana-Champaign, Vanderbilt University, Microsoft Research",
-         "img": "../images/research/remotelab.png",
-         "categorized": false,
-         "papers": [
-            {
-               "title": "UIST 2022 Paper",
-               "doc": "../docs/UIST2022_RemoteStudy.pdf",
-               "category": null
-            }
-         ]
-      },
-      {
-         "title": "A Voice and Touch Multimodal Approach for Ambiguity Resolution in Voice Assistants",
-         "institution": "University of Illinois at Urbana-Champaign, Vanderbilt University",
-         "img": "../images/research/mmva.png",
-         "categorized": false,
-         "papers": [
-            {
-               "title": "ICMI 2021 Paper",
-               "doc": "../docs/ICMI2021_MultimodalVA.pdf",
-               "category": null
-            }
-         ]
-      },
-      {
-         "title": "Perceptions, Attitudes, and Strategy Formation in Human-Agent Teams in a Continuous Game-theoretic Environment",
-         "institution": "University of Illinois at Urbana-Champaign, Army Research Laboratory",
-         "img": "../images/research/predprey.png",
-         "categorized": true,
-         "papers": [
-            {
-               "title": "JCEDM 2022 Article",
-               "doc": "../docs/JCEDM2022_Mediation.pdf",
-               "category": "Perceptions/Attitudes"
-            },
-            {
-               "title": "SPIE 2020 Paper",
-               "doc": "../docs/SPIE2020_HATComplacency.pdf",
-               "category": "Perceptions/Attitudes"
-            },
-            {
-               "title": "CSCE 2020 Paper",
-               "doc": "../docs/CSCE2020_EmergentStrats.pdf",
-               "category": "Strategy Formation"
-            },
-            {
-               "title": "SPIE 2020 Paper",
-               "doc": "../docs/SPIE2020_ErgodicDistros.pdf",
-               "category": "Strategy Formation"
-            },
-            {
-               "title": "CSCI 2019 Short Paper",
-               "doc": "../docs/CSCI2019_CoordinationProfiles.pdf",
-               "category": "Strategy Formation"
-            },
-            {
-               "title": "SPIE 2019 Paper",
-               "doc": "../docs/SPIE2019_Strategies.pdf",
-               "category": "Strategy Formation"
-            }
-         ]
-      },
-      {
-         "title": "Knowledge Complacency in Decision Support Systems",
-         "institution": "University of Illinois at Urbana-Champaign, Army Research Laboratory, University of California, Santa Barbara",
-         "img": "../images/research/dd.png",
-         "categorized": false,
-         "papers": [
-            {
-               "title": "CogSIMA 2019 Paper 🏆",
-               "doc": "../docs/CogSIMA2019_Complacency.pdf",
-               "category": null
-            }
-         ]
-      },
-      {
-         "title": "Participatory Simulations for CS Education with a Hackable Electronic Conference Badge",
-         "institution": "Northwestern University",
-         "img": "../images/research/ecb.png",
-         "categorized": false,
-         "papers": [
-            {
-               "title": "IEEE ToE 2017 Article",
-               "doc": "../docs/IEEE2017_AllRoads.pdf",
-               "category": null
-            }
-         ]
-      }
-   ]
+    "experience": [
+        {
+            "company": "Amazon",
+            "title": "Software Development Engineer",
+            "year": "2024 - Present",
+            "img": "../images/experience/amazon.png",
+            "alt": "Amazon Logo"
+        },
+        {
+            "company": "Meta",
+            "title": "Analytics Engineer",
+            "year": "2022 - 2023",
+            "img": "../images/experience/meta.png",
+            "alt": "Meta Logo"
+        },
+        {
+            "company": "Computer Science @ Illinois",
+            "title": "Lead Software Developer",
+            "year": "2021 - 2022",
+            "img": "../images/experience/illinois.png",
+            "alt": "University of Illinois Logo"
+        },
+        {
+            "company": "Computer Science @ Illinois",
+            "title": "Graduate Researcher",
+            "year": "2016 - 2022",
+            "img": "../images/experience/illinois.png",
+            "alt": "University of Illinois Logo"
+        },
+        {
+            "company": "Facebook (now Meta)",
+            "title": "UX Research Intern",
+            "year": "2021",
+            "img": "../images/experience/facebook.png",
+            "alt": "Facebook Logo"
+        },
+        {
+            "company": "Army Research Laboratory",
+            "title": "Research Fellow",
+            "year": "2018 - 2020",
+            "img": "../images/experience/arl.png",
+            "alt": "Army Research Laboratory Logo"
+        },
+        {
+            "company": "Army Research Laboratory",
+            "title": "Software Engineer Intern",
+            "year": "2018",
+            "img": "../images/experience/arl.png",
+            "alt": "Army Research Laboratory Logo"
+        },
+        {
+            "company": "Northwestern University",
+            "title": "Undergraduate Research Assistant",
+            "year": "2015 - 2016",
+            "img": "../images/experience/nu.png",
+            "alt": "Northwestern University Logo"
+        },
+        {
+            "company": "Washington State University",
+            "title": "Undergraduate Research Intern",
+            "year": "2015",
+            "img": "../images/experience/wsu.png",
+            "alt": "Northwestern University Logo"
+        }
+    ],
+    "projects": [
+        {
+            "title": "GazePointAR",
+            "url": "https://youtu.be/dKZPn61AeXo",
+            "img": "../images/portfolio/gazepointar.png",
+            "description": "A head-mounted AR voice assistant that answers questions with ambiguous pronouns (e.g., \"what's this?\").",
+            "newtab": true
+        },
+        {
+            "title": "RemoteLab",
+            "url": "https://github.com/microsoft/Remote-Lab",
+            "img": "../images/portfolio/remotelab.png",
+            "description": "A Unity toolkit that enables researchers to conduct remote XR studies through state synchronization and event logging.",
+            "newtab": true
+        },
+        {
+            "title": "WristFob ⛔️",
+            "url": "https://gallery.fitbit.com/details/092118b8-c3d5-425a-96de-0099ee0fec13?key=e4fbfdd2-d20c-426a-95a8-ca79f5d9bbe8",
+            "img": "../images/portfolio/wristfob.png",
+            "description": "A deprecated application to control Tesla vehicles from Versa and Sense families of Fitbit devices.",
+            "newtab": true
+        },
+        {
+            "title": "Savanna",
+            "url": null,
+            "img": "../images/portfolio/savanna.png",
+            "description": "A high-fidelity agent-based simulation of an African savanna to test the functionality of virtual IoT devices.",
+            "newtab": true
+        },
+        {
+            "title": "Sketcher",
+            "url": null,
+            "img": "../images/portfolio/sketcher.png",
+            "description": "A featured WebGL tool to practice orthographic and isometric drawing.",
+            "newtab": true
+        },
+        {
+            "title": "Warehouse",
+            "url": null,
+            "img": "../images/portfolio/warehouse.png",
+            "description": "An experiment to investigate trust and embodiment effects with robotic agents in VR.",
+            "newtab": true
+        },
+        {
+            "title": "Badminton",
+            "url": "/badminton",
+            "img": "../images/portfolio/badminton.png",
+            "description": "A point tracker for Badminton games for the Versa and Sense families of Fitbit devices.",
+            "newtab": false
+        },
+        {
+            "title": "Reality Labs 🔒",
+            "url": null,
+            "img": "../images/portfolio/rllogo.png",
+            "description": "Prototype of a multiplayer co-location VR experience for the Meta Quest product line.",
+            "newtab": true
+        },
+        {
+            "title": "VR Neural Nets",
+            "url": null,
+            "img": "../images/portfolio/nn.png",
+            "description": "A visualization of neural networks in VR. Includes a neural network implementation in C# from scratch.",
+            "newtab": true
+        },
+        {
+            "title": "Multi-modal VA",
+            "url": "https://youtu.be/wD1gODGNrGE",
+            "img": "../images/portfolio/mmva.png",
+            "description": "A voice assistant (think Siri) augmented with context selection through an AR interface.",
+            "newtab": true
+        },
+        {
+            "title": "Metronome",
+            "url": "https://gallery.fitbit.com/details/221cc7d9-02a2-4920-b858-888950e5b502",
+            "img": "../images/portfolio/metronome.png",
+            "description": "A rudimentary haptic metronome for the Versa and Sense families of Fitbit devices.",
+            "newtab": true
+        },
+        {
+            "title": "Predator-Prey",
+            "url": null,
+            "img": "../images/portfolio/ppg.png",
+            "description": "An implementation of the MADDPG algorithm with Unity ML-Agents.",
+            "newtab": true
+        },
+        {
+            "title": "Chromatone",
+            "url": "https://youtu.be/-SmzZ0YtzQc",
+            "img": "../images/portfolio/chromatone.png",
+            "description": "A VR experience that allows interaction with individual instruments through modulation and particle visualizations.",
+            "newtab": true
+        },
+        {
+            "title": "Lieutenant",
+            "url": null,
+            "img": "../images/portfolio/lt.png",
+            "description": "An arcade-styled VR flight simulator. Explores different dimensions of locomotive comfort.",
+            "newtab": true
+        },
+        {
+            "title": "Mizuna",
+            "url": "https://github.com/srodriguez1850/Mizuna",
+            "img": "../images/portfolio/mizuna.png",
+            "description": "Programmatic synchronization of graphs between IPython and Overleaf.",
+            "newtab": true
+        },
+        {
+            "title": "BEU",
+            "url": null,
+            "img": "../images/portfolio/beu2.png",
+            "description": "An exercise to implement fighting game mechanics in a side-scrolling beat 'em up domain.",
+            "newtab": true
+        },
+        {
+            "title": "Modular Tetris",
+            "url": "/tetris",
+            "img": "../images/portfolio/tetris.png",
+            "description": "An exercise to implement Tetris with modular frame-timing mechanics.",
+            "newtab": false
+        },
+        {
+            "title": "n-back",
+            "url": null,
+            "img": "../images/portfolio/cogproc.png",
+            "description": "A replication of the n-back task to test working memory in VR environments.",
+            "newtab": true
+        },
+        {
+            "title": "Proprioception",
+            "url": "/proprioception",
+            "img": "../images/portfolio/proprioception.png",
+            "description": "An experiment to investigate how challenging is it for VR users to grab objects outside of their field of view.",
+            "newtab": false
+        },
+        {
+            "title": "Aurora",
+            "url": "https://github.com/antonpup/Aurora/commits?author=srodriguez1850",
+            "img": "../images/portfolio/aurora.png",
+            "description": "My contributions to an open-sourced utility that unifies RGB devices across different brands for synchronized lighting.",
+            "newtab": true
+        },
+        {
+            "title": "TIDALSign",
+            "url": "https://youtu.be/j-NQ40gS5eM",
+            "img": "../images/portfolio/tidalsign.png",
+            "description": "Learn American Sign Language through sensory gloves and haptic feedback.",
+            "newtab": true
+        },
+        {
+            "title": "JS3Inth",
+            "url": "https://github.com/srodriguez1850/JSInth",
+            "img": "../images/portfolio/jsinth.png",
+            "description": "Sine wave synthesizer and modulator for FPGA boards.",
+            "newtab": true
+        }
+    ],
+
+    "research": [
+        {
+            "title": "Validating Trust in Human-Robot Interaction Through Virtual Reality: Comparing Embodied and \"Behind-the-Screen\" Interactions",
+            "institution": "University of Illinois at Urbana-Champaign",
+            "img": "../images/research/warehouse.png",
+            "categorized": false,
+            "papers": [
+                {
+                    "title": "AHFE 2023 Paper",
+                    "doc": "../docs/AHFE2023_VRTrust.pdf",
+                    "category": null
+                }
+            ]
+        },
+        {
+            "title": "\"Good Enough\" Agents: Investigating Designed Imperfections in Human-AI Teams Across Parallel Domains",
+            "institution": "University of Illinois at Urbana-Champaign",
+            "img": "../images/research/dissertation.png",
+            "categorized": false,
+            "papers": [
+                {
+                    "title": "Dissertation",
+                    "doc": "../docs/Dissertation.pdf",
+                    "category": null
+                },
+                {
+                    "title": "Slides",
+                    "doc": "../docs/DefenseSlides.pdf",
+                    "category": null
+                }
+            ]
+        },
+        {
+            "title": "GazePointAR: A Context-Aware Multimodal Voice Assistant for Pronoun Disambiguation in Wearable Augmented Reality",
+            "institution": "University of Washington, University of Illinois at Urbana-Champaign",
+            "img": "../images/research/gazepointar.png",
+            "categorized": false,
+            "papers": [
+                {
+                    "title": "UIST 2023 Demo",
+                    "doc": "../docs/UIST2023_ARVADemo.pdf",
+                    "category": null
+                },
+                {
+                    "title": "CHI 2024 Paper",
+                    "doc": "../docs/CHI2024_ARVA.pdf",
+                    "category": null
+                }
+            ]
+        },
+        {
+            "title": "RemoteLab: A VR Remote Study Toolkit",
+            "institution": "University of Illinois at Urbana-Champaign, Vanderbilt University, Microsoft Research",
+            "img": "../images/research/remotelab.png",
+            "categorized": false,
+            "papers": [
+                {
+                    "title": "UIST 2022 Paper",
+                    "doc": "../docs/UIST2022_RemoteStudy.pdf",
+                    "category": null
+                }
+            ]
+        },
+        {
+            "title": "A Voice and Touch Multimodal Approach for Ambiguity Resolution in Voice Assistants",
+            "institution": "University of Illinois at Urbana-Champaign, Vanderbilt University",
+            "img": "../images/research/mmva.png",
+            "categorized": false,
+            "papers": [
+                {
+                    "title": "ICMI 2021 Paper",
+                    "doc": "../docs/ICMI2021_MultimodalVA.pdf",
+                    "category": null
+                }
+            ]
+        },
+        {
+            "title": "Perceptions, Attitudes, and Strategy Formation in Human-Agent Teams in a Continuous Game-theoretic Environment",
+            "institution": "University of Illinois at Urbana-Champaign, Army Research Laboratory",
+            "img": "../images/research/predprey.png",
+            "categorized": true,
+            "papers": [
+                {
+                    "title": "JCEDM 2022 Article",
+                    "doc": "../docs/JCEDM2022_Mediation.pdf",
+                    "category": "Perceptions/Attitudes"
+                },
+                {
+                    "title": "SPIE 2020 Paper",
+                    "doc": "../docs/SPIE2020_HATComplacency.pdf",
+                    "category": "Perceptions/Attitudes"
+                },
+                {
+                    "title": "CSCE 2020 Paper",
+                    "doc": "../docs/CSCE2020_EmergentStrats.pdf",
+                    "category": "Strategy Formation"
+                },
+                {
+                    "title": "SPIE 2020 Paper",
+                    "doc": "../docs/SPIE2020_ErgodicDistros.pdf",
+                    "category": "Strategy Formation"
+                },
+                {
+                    "title": "CSCI 2019 Short Paper",
+                    "doc": "../docs/CSCI2019_CoordinationProfiles.pdf",
+                    "category": "Strategy Formation"
+                },
+                {
+                    "title": "SPIE 2019 Paper",
+                    "doc": "../docs/SPIE2019_Strategies.pdf",
+                    "category": "Strategy Formation"
+                }
+            ]
+        },
+        {
+            "title": "Knowledge Complacency in Decision Support Systems",
+            "institution": "University of Illinois at Urbana-Champaign, Army Research Laboratory, University of California, Santa Barbara",
+            "img": "../images/research/dd.png",
+            "categorized": false,
+            "papers": [
+                {
+                    "title": "CogSIMA 2019 Paper 🏆",
+                    "doc": "../docs/CogSIMA2019_Complacency.pdf",
+                    "category": null
+                }
+            ]
+        },
+        {
+            "title": "Participatory Simulations for CS Education with a Hackable Electronic Conference Badge",
+            "institution": "Northwestern University",
+            "img": "../images/research/ecb.png",
+            "categorized": false,
+            "papers": [
+                {
+                    "title": "IEEE ToE 2017 Article",
+                    "doc": "../docs/IEEE2017_AllRoads.pdf",
+                    "category": null
+                }
+            ]
+        }
+    ]
 }
