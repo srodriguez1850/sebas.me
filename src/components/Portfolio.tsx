@@ -180,7 +180,7 @@ export default function Portfolio () {
                                     ,
                                 </li>
                                 <li>
-                                    Implemtented data processing algorithms to
+                                    Implemented data processing algorithms to
                                     estimate availability for electric smart
                                     grids at{" "}
                                     <a
