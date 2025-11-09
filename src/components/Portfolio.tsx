@@ -90,13 +90,13 @@ export default function Portfolio () {
                             >
                                 University of Illinois at Urbana-Champaign
                             </a>{" "}
-                            advised by{" "}
+                            advised by the late and great{" "}
                             <a
-                                href='https://cs.illinois.edu/about/people/faculty/kirlik'
+                                href='https://siebelschool.illinois.edu/news/alex-kirlik-obit'
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                Prof. Alex Kirlik
+                                Prof. Emer. Alex Kirlik
                             </a>
                             , and before, completed a bachelor's in Computer
                             Engineering at{" "}
