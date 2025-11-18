@@ -33,7 +33,7 @@ const ICON_DATA = [
         title: "GitHub",
     },
     {
-        href: "https://scholar.google.com/citations?user=RdD2ZP8AAAAJ",
+        href: "https://scholar.google.com/citations?user=UIOL33MAAAAJ",
         img: "https://img.icons8.com/material-outlined/96/000000/google-scholar.png",
         alt: "Google Scholar Profile",
         title: "Google Scholar",
